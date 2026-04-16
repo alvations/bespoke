@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bespoke"
+version = "0.1.0"
+description = "Bespoke trading strategy library — backtest, analyze, execute"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.21",
+    "yfinance>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-mock", "ruff"]
+trading = ["public-api-sdk"]
+all = ["bespoke[dev,trading]"]
+
+[project.scripts]
+bespoke = "bespoke.cli.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bespoke"]
