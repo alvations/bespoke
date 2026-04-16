@@ -1,0 +1,67 @@
+{
+  "strategy_name": "regulated_data",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:54.143157",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "3.9%",
+    "stop_loss": "13.1%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "13.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "NDAQ",
+      "action": "BUY",
+      "current_position": 147.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.2% below entry",
+      "take_profit": "5.1% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "9.3% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NDAQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/NDAQ/"
+    },
+    {
+      "symbol": "MSCI",
+      "action": "BUY",
+      "current_position": 23.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.7% below entry",
+      "take_profit": "5.6% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "10.3% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MSCI",
+      "yahoo_url": "https://finance.yahoo.com/quote/MSCI/"
+    },
+    {
+      "symbol": "MCO",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.6% below entry",
+      "take_profit": "5.6% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "10.2% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MCO",
+      "yahoo_url": "https://finance.yahoo.com/quote/MCO/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "11.06%",
+    "sharpe_ratio": "0.01",
+    "max_drawdown": "-13.09%",
+    "win_rate": "56.19%",
+    "alpha": "-19.56%"
+  }
+}

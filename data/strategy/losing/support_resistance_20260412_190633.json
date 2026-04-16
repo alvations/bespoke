@@ -1,0 +1,106 @@
+{
+  "strategy_name": "support_resistance",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:06:32.847060",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "29.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "CPER",
+      "action": "BUY",
+      "current_position": 367.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.0% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.1% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CPER",
+      "yahoo_url": "https://finance.yahoo.com/quote/CPER/"
+    },
+    {
+      "symbol": "XLE",
+      "action": "BUY",
+      "current_position": 412.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.9% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.7% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XLE",
+      "yahoo_url": "https://finance.yahoo.com/quote/XLE/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 32.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.1% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.8% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "NEM",
+      "action": "BUY",
+      "current_position": 129.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "8.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NEM",
+      "yahoo_url": "https://finance.yahoo.com/quote/NEM/"
+    },
+    {
+      "symbol": "SLV",
+      "action": "BUY",
+      "current_position": 199.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SLV",
+      "yahoo_url": "https://finance.yahoo.com/quote/SLV/"
+    },
+    {
+      "symbol": "COPX",
+      "action": "BUY",
+      "current_position": 179.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "8.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=COPX",
+      "yahoo_url": "https://finance.yahoo.com/quote/COPX/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-8.34%",
+    "sharpe_ratio": "-0.39",
+    "max_drawdown": "-29.62%",
+    "win_rate": "49.27%",
+    "alpha": "-26.00%"
+  }
+}

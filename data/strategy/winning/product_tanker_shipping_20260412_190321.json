@@ -1,0 +1,132 @@
+{
+  "strategy_name": "product_tanker_shipping",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:03:20.896941",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "2.0%",
+    "stop_loss": "38.7%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "25.8%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on golden cross (SMA50 > SMA200). These are CYCLE trades \u2014 timing matters.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 30% at signal, add 30% on confirmation, hold 40% for cycle peak."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "TRMD",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "25.9% above entry",
+      "position_size": "1.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TRMD",
+      "yahoo_url": "https://finance.yahoo.com/quote/TRMD/"
+    },
+    {
+      "symbol": "FRO",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "48%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "30.2% above entry",
+      "position_size": "1.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 12.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FRO",
+      "yahoo_url": "https://finance.yahoo.com/quote/FRO/"
+    },
+    {
+      "symbol": "STNG",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.9% above entry",
+      "position_size": "1.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=STNG",
+      "yahoo_url": "https://finance.yahoo.com/quote/STNG/"
+    },
+    {
+      "symbol": "INSW",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.7% above entry",
+      "position_size": "1.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=INSW",
+      "yahoo_url": "https://finance.yahoo.com/quote/INSW/"
+    },
+    {
+      "symbol": "TNK",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.9% above entry",
+      "position_size": "1.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TNK",
+      "yahoo_url": "https://finance.yahoo.com/quote/TNK/"
+    },
+    {
+      "symbol": "DHT",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "22.4% above entry",
+      "position_size": "1.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DHT",
+      "yahoo_url": "https://finance.yahoo.com/quote/DHT/"
+    },
+    {
+      "symbol": "HAFN",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "25.0% above entry",
+      "position_size": "1.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HAFN",
+      "yahoo_url": "https://finance.yahoo.com/quote/HAFN/"
+    },
+    {
+      "symbol": "ASC",
+      "action": "FLAT",
+      "current_position": 0.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "23.9% above entry",
+      "position_size": "1.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ASC",
+      "yahoo_url": "https://finance.yahoo.com/quote/ASC/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "9.00%",
+    "sharpe_ratio": "0.04",
+    "max_drawdown": "-25.78%",
+    "win_rate": "41.28%",
+    "alpha": "-20.21%"
+  }
+}

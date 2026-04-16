@@ -1,0 +1,67 @@
+{
+  "strategy_name": "boring_compounder",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:59.202667",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.7%",
+    "stop_loss": "30.2%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "20.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: DCA monthly regardless of price. Add more on 10%+ dips.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Equal monthly contributions. Never try to time entry."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "IDXX",
+      "action": "BUY",
+      "current_position": 23.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "23.6% above entry",
+      "position_size": "4.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=IDXX",
+      "yahoo_url": "https://finance.yahoo.com/quote/IDXX/"
+    },
+    {
+      "symbol": "WST",
+      "action": "BUY",
+      "current_position": 60.0,
+      "annual_volatility": "49%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "30.9% above entry",
+      "position_size": "3.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 12.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WST",
+      "yahoo_url": "https://finance.yahoo.com/quote/WST/"
+    },
+    {
+      "symbol": "CLH",
+      "action": "BUY",
+      "current_position": 72.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "35.1% below entry",
+      "take_profit": "17.5% above entry",
+      "position_size": "5.7% of portfolio",
+      "trailing_stop": "24.6% trailing after 7.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CLH",
+      "yahoo_url": "https://finance.yahoo.com/quote/CLH/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "36.89%",
+    "sharpe_ratio": "0.54",
+    "max_drawdown": "-20.10%",
+    "win_rate": "51.93%",
+    "alpha": "-12.06%"
+  }
+}

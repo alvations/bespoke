@@ -1,0 +1,67 @@
+{
+  "strategy_name": "k_shape_economy",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:04:32.234830",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "3.5%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "25.0%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Even better: add more when discount retailers (Dollar Tree) are struggling \u2014 signals money flowing to premium brands.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 33.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "30.0% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "2.9% of portfolio",
+      "trailing_stop": "21.0% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    },
+    {
+      "symbol": "COST",
+      "action": "BUY",
+      "current_position": 10.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.6% below entry",
+      "take_profit": "4.3% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "15.1% trailing after 1.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=COST",
+      "yahoo_url": "https://finance.yahoo.com/quote/COST/"
+    },
+    {
+      "symbol": "UNH",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.0% above entry",
+      "position_size": "1.9% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UNH",
+      "yahoo_url": "https://finance.yahoo.com/quote/UNH/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "11.31%",
+    "sharpe_ratio": "0.04",
+    "max_drawdown": "-24.98%",
+    "win_rate": "55.26%",
+    "alpha": "-19.48%"
+  }
+}

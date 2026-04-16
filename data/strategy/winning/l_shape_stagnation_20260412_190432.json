@@ -1,0 +1,67 @@
+{
+  "strategy_name": "l_shape_stagnation",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:04:32.796590",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "13.0%",
+    "stop_loss": "15.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "3.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Always hold some. Add more when SPY breaks below SMA200.",
+    "timing": "WAIT FOR SIGNAL: Go max defensive ONLY during prolonged market downturn (3+ months). Otherwise hold small gold/bond insurance.",
+    "scaling": "Maintain 5-15% allocation. Add during fear, trim during euphoria."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 29.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.4% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "13.6% of portfolio",
+      "trailing_stop": "10.1% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "XLU",
+      "action": "BUY",
+      "current_position": 131.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.9% below entry",
+      "take_profit": "3.3% above entry",
+      "position_size": "19.8% of portfolio",
+      "trailing_stop": "6.9% trailing after 1.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XLU",
+      "yahoo_url": "https://finance.yahoo.com/quote/XLU/"
+    },
+    {
+      "symbol": "SCHD",
+      "action": "BUY",
+      "current_position": 424.0,
+      "annual_volatility": "14%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.9% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "22.0% of portfolio",
+      "trailing_stop": "6.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SCHD",
+      "yahoo_url": "https://finance.yahoo.com/quote/SCHD/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "14.85%",
+    "sharpe_ratio": "0.23",
+    "max_drawdown": "-3.32%",
+    "win_rate": "56.72%",
+    "alpha": "-18.39%"
+  }
+}

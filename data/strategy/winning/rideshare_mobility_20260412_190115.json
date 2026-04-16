@@ -1,0 +1,80 @@
+{
+  "strategy_name": "rideshare_mobility",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:14.847247",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "7.9%",
+    "stop_loss": "13.3%",
+    "take_profit_target": "7.0%",
+    "max_drawdown_tolerance": "13.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "TCOM",
+      "action": "BUY",
+      "current_position": 308.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.3% below entry",
+      "take_profit": "12.9% above entry",
+      "position_size": "4.3% of portfolio",
+      "trailing_stop": "17.0% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TCOM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TCOM/"
+    },
+    {
+      "symbol": "DASH",
+      "action": "BUY",
+      "current_position": 97.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "22.8% below entry",
+      "take_profit": "12.1% above entry",
+      "position_size": "4.6% of portfolio",
+      "trailing_stop": "16.0% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DASH",
+      "yahoo_url": "https://finance.yahoo.com/quote/DASH/"
+    },
+    {
+      "symbol": "BKNG",
+      "action": "BUY",
+      "current_position": 103.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "17.0% below entry",
+      "take_profit": "9.0% above entry",
+      "position_size": "6.2% of portfolio",
+      "trailing_stop": "11.9% trailing after 3.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BKNG",
+      "yahoo_url": "https://finance.yahoo.com/quote/BKNG/"
+    },
+    {
+      "symbol": "UBER",
+      "action": "BUY",
+      "current_position": 275.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "21.7% below entry",
+      "take_profit": "11.4% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "15.2% trailing after 4.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UBER",
+      "yahoo_url": "https://finance.yahoo.com/quote/UBER/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "48.27%",
+    "sharpe_ratio": "0.69",
+    "max_drawdown": "-13.34%",
+    "win_rate": "50.33%",
+    "alpha": "-9.05%"
+  }
+}

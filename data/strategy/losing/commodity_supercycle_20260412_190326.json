@@ -1,0 +1,158 @@
+{
+  "strategy_name": "commodity_supercycle",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:03:26.340678",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "33.9%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "22.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on golden cross (SMA50 > SMA200). These are CYCLE trades \u2014 timing matters.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 30% at signal, add 30% on confirmation, hold 40% for cycle peak."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "DJP",
+      "action": "BUY",
+      "current_position": 220.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.8% below entry",
+      "take_profit": "11.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "17.4% trailing after 4.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DJP",
+      "yahoo_url": "https://finance.yahoo.com/quote/DJP/"
+    },
+    {
+      "symbol": "SCCO",
+      "action": "BUY",
+      "current_position": 58.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "27.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SCCO",
+      "yahoo_url": "https://finance.yahoo.com/quote/SCCO/"
+    },
+    {
+      "symbol": "MOO",
+      "action": "BUY",
+      "current_position": 114.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.5% below entry",
+      "take_profit": "10.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "15.8% trailing after 4.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MOO",
+      "yahoo_url": "https://finance.yahoo.com/quote/MOO/"
+    },
+    {
+      "symbol": "NTR",
+      "action": "BUY",
+      "current_position": 134.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "18.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NTR",
+      "yahoo_url": "https://finance.yahoo.com/quote/NTR/"
+    },
+    {
+      "symbol": "XME",
+      "action": "BUY",
+      "current_position": 79.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "20.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XME",
+      "yahoo_url": "https://finance.yahoo.com/quote/XME/"
+    },
+    {
+      "symbol": "SLV",
+      "action": "BUY",
+      "current_position": 126.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "29.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 11.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SLV",
+      "yahoo_url": "https://finance.yahoo.com/quote/SLV/"
+    },
+    {
+      "symbol": "COPX",
+      "action": "BUY",
+      "current_position": 117.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=COPX",
+      "yahoo_url": "https://finance.yahoo.com/quote/COPX/"
+    },
+    {
+      "symbol": "GSG",
+      "action": "BUY",
+      "current_position": 360.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "28.2% below entry",
+      "take_profit": "12.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "19.8% trailing after 5.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GSG",
+      "yahoo_url": "https://finance.yahoo.com/quote/GSG/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 21.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "32.6% below entry",
+      "take_profit": "14.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "22.8% trailing after 5.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "FCX",
+      "action": "BUY",
+      "current_position": 162.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "28.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 11.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FCX",
+      "yahoo_url": "https://finance.yahoo.com/quote/FCX/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-8.15%",
+    "sharpe_ratio": "-0.59",
+    "max_drawdown": "-22.61%",
+    "win_rate": "51.26%",
+    "alpha": "-25.93%"
+  }
+}

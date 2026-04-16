@@ -1,0 +1,93 @@
+{
+  "strategy_name": "uk_european_banking",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:09.670337",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "13.8%",
+    "stop_loss": "16.7%",
+    "take_profit_target": "13.7%",
+    "max_drawdown_tolerance": "15.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy when local market index is above SMA200. FX matters \u2014 check currency trend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 2-4 weeks. Currency hedging optional."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "NWG",
+      "action": "BUY",
+      "current_position": 1645.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "22.6% below entry",
+      "take_profit": "18.5% above entry",
+      "position_size": "10.2% of portfolio",
+      "trailing_stop": "15.9% trailing after 7.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NWG",
+      "yahoo_url": "https://finance.yahoo.com/quote/NWG/"
+    },
+    {
+      "symbol": "DB",
+      "action": "BUY",
+      "current_position": 717.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.7% below entry",
+      "take_profit": "20.2% above entry",
+      "position_size": "9.3% of portfolio",
+      "trailing_stop": "17.3% trailing after 8.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DB",
+      "yahoo_url": "https://finance.yahoo.com/quote/DB/"
+    },
+    {
+      "symbol": "LYG",
+      "action": "BUY",
+      "current_position": 5213.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.0% below entry",
+      "take_profit": "17.1% above entry",
+      "position_size": "11.0% of portfolio",
+      "trailing_stop": "14.7% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LYG",
+      "yahoo_url": "https://finance.yahoo.com/quote/LYG/"
+    },
+    {
+      "symbol": "ING",
+      "action": "BUY",
+      "current_position": 990.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.8% below entry",
+      "take_profit": "15.4% above entry",
+      "position_size": "12.2% of portfolio",
+      "trailing_stop": "13.2% trailing after 6.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ING",
+      "yahoo_url": "https://finance.yahoo.com/quote/ING/"
+    },
+    {
+      "symbol": "BNPQF",
+      "action": "BUY",
+      "current_position": 280.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.8% below entry",
+      "take_profit": "23.5% above entry",
+      "position_size": "8.0% of portfolio",
+      "trailing_stop": "20.2% trailing after 9.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BNPQF",
+      "yahoo_url": "https://finance.yahoo.com/quote/BNPQF/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "84.69%",
+    "sharpe_ratio": "1.27",
+    "max_drawdown": "-15.22%",
+    "win_rate": "55.39%",
+    "alpha": "-0.35%"
+  }
+}

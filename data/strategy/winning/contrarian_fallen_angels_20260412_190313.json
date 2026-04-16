@@ -1,0 +1,80 @@
+{
+  "strategy_name": "contrarian_fallen_angels",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:03:13.323187",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "3.8%",
+    "stop_loss": "23.8%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "19.8%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy below SMA200 or at RSI < 35. Value = patience. Don't rush.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 4-6 weeks as price confirms bottom."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "CLX",
+      "action": "BUY",
+      "current_position": 125.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.7% below entry",
+      "take_profit": "16.7% above entry",
+      "position_size": "2.3% of portfolio",
+      "trailing_stop": "27.8% trailing after 6.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CLX",
+      "yahoo_url": "https://finance.yahoo.com/quote/CLX/"
+    },
+    {
+      "symbol": "NCLH",
+      "action": "BUY",
+      "current_position": 707.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "22.1% above entry",
+      "position_size": "1.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NCLH",
+      "yahoo_url": "https://finance.yahoo.com/quote/NCLH/"
+    },
+    {
+      "symbol": "PYPL",
+      "action": "BUY",
+      "current_position": 211.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "38.6% below entry",
+      "take_profit": "16.2% above entry",
+      "position_size": "2.3% of portfolio",
+      "trailing_stop": "27.0% trailing after 6.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PYPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/PYPL/"
+    },
+    {
+      "symbol": "BA",
+      "action": "BUY",
+      "current_position": 70.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "35.4% below entry",
+      "take_profit": "14.9% above entry",
+      "position_size": "2.6% of portfolio",
+      "trailing_stop": "24.8% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BA",
+      "yahoo_url": "https://finance.yahoo.com/quote/BA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "12.66%",
+    "sharpe_ratio": "0.06",
+    "max_drawdown": "-19.84%",
+    "win_rate": "45.41%",
+    "alpha": "-19.06%"
+  }
+}

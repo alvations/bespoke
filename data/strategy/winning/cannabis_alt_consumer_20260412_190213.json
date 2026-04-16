@@ -1,0 +1,54 @@
+{
+  "strategy_name": "cannabis_alt_consumer",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:12.908051",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "2.5%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "57.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SAM",
+      "action": "BUY",
+      "current_position": 67.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.1% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "1.9% of portfolio",
+      "trailing_stop": "23.2% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SAM",
+      "yahoo_url": "https://finance.yahoo.com/quote/SAM/"
+    },
+    {
+      "symbol": "GTBIF",
+      "action": "BUY",
+      "current_position": 1674.0,
+      "annual_volatility": "80%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GTBIF",
+      "yahoo_url": "https://finance.yahoo.com/quote/GTBIF/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "9.85%",
+    "sharpe_ratio": "0.20",
+    "max_drawdown": "-57.66%",
+    "win_rate": "45.41%",
+    "alpha": "-19.94%"
+  }
+}

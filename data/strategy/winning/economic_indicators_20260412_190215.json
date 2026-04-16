@@ -1,0 +1,80 @@
+{
+  "strategy_name": "economic_indicators",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:15.282458",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "4.5%",
+    "stop_loss": "9.8%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "9.8%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "FCX",
+      "action": "BUY",
+      "current_position": 224.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "18.7% below entry",
+      "take_profit": "9.5% above entry",
+      "position_size": "2.4% of portfolio",
+      "trailing_stop": "13.1% trailing after 3.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FCX",
+      "yahoo_url": "https://finance.yahoo.com/quote/FCX/"
+    },
+    {
+      "symbol": "MCD",
+      "action": "BUY",
+      "current_position": 37.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.5% below entry",
+      "take_profit": "3.8% above entry",
+      "position_size": "5.9% of portfolio",
+      "trailing_stop": "5.2% trailing after 1.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MCD",
+      "yahoo_url": "https://finance.yahoo.com/quote/MCD/"
+    },
+    {
+      "symbol": "RL",
+      "action": "BUY",
+      "current_position": 32.0,
+      "annual_volatility": "37%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "15.1% below entry",
+      "take_profit": "7.7% above entry",
+      "position_size": "2.9% of portfolio",
+      "trailing_stop": "10.6% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=RL",
+      "yahoo_url": "https://finance.yahoo.com/quote/RL/"
+    },
+    {
+      "symbol": "PKG",
+      "action": "BUY",
+      "current_position": 55.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.5% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "4.2% of portfolio",
+      "trailing_stop": "7.3% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PKG",
+      "yahoo_url": "https://finance.yahoo.com/quote/PKG/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "14.60%",
+    "sharpe_ratio": "0.12",
+    "max_drawdown": "-9.84%",
+    "win_rate": "51.26%",
+    "alpha": "-18.47%"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "strategy_name": "gig_economy_saas",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:12.431868",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.3%",
+    "stop_loss": "23.3%",
+    "take_profit_target": "7.5%",
+    "max_drawdown_tolerance": "23.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "UPWK",
+      "action": "BUY",
+      "current_position": 1132.0,
+      "annual_volatility": "57%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "18.0% above entry",
+      "position_size": "2.6% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UPWK",
+      "yahoo_url": "https://finance.yahoo.com/quote/UPWK/"
+    },
+    {
+      "symbol": "TOST",
+      "action": "BUY",
+      "current_position": 629.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "14.5% above entry",
+      "position_size": "3.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TOST",
+      "yahoo_url": "https://finance.yahoo.com/quote/TOST/"
+    },
+    {
+      "symbol": "RKLB",
+      "action": "BUY",
+      "current_position": 328.0,
+      "annual_volatility": "104%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "22.5% above entry",
+      "position_size": "2.1% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=RKLB",
+      "yahoo_url": "https://finance.yahoo.com/quote/RKLB/"
+    },
+    {
+      "symbol": "CFLT",
+      "action": "BUY",
+      "current_position": 763.0,
+      "annual_volatility": "63%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "19.9% above entry",
+      "position_size": "2.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CFLT",
+      "yahoo_url": "https://finance.yahoo.com/quote/CFLT/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "51.98%",
+    "sharpe_ratio": "0.55",
+    "max_drawdown": "-23.25%",
+    "win_rate": "47.27%",
+    "alpha": "-8.10%"
+  }
+}

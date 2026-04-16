@@ -1,0 +1,158 @@
+{
+  "strategy_name": "dividend_aristocrat_momentum",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:01:46.383521",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "20.1%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "15.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on ex-dividend date dips or when yield exceeds 5-year average.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Build position over 4-6 weeks. Reinvest all dividends."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "JNJ",
+      "action": "BUY",
+      "current_position": 42.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "15.0% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "10.5% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JNJ",
+      "yahoo_url": "https://finance.yahoo.com/quote/JNJ/"
+    },
+    {
+      "symbol": "NEE",
+      "action": "BUY",
+      "current_position": 102.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.2% below entry",
+      "take_profit": "8.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "15.5% trailing after 3.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NEE",
+      "yahoo_url": "https://finance.yahoo.com/quote/NEE/"
+    },
+    {
+      "symbol": "XOM",
+      "action": "BUY",
+      "current_position": 74.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.9% below entry",
+      "take_profit": "7.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "13.9% trailing after 3.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XOM",
+      "yahoo_url": "https://finance.yahoo.com/quote/XOM/"
+    },
+    {
+      "symbol": "EMR",
+      "action": "BUY",
+      "current_position": 65.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "26.0% below entry",
+      "take_profit": "10.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.2% trailing after 4.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EMR",
+      "yahoo_url": "https://finance.yahoo.com/quote/EMR/"
+    },
+    {
+      "symbol": "LOW",
+      "action": "BUY",
+      "current_position": 35.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.0% below entry",
+      "take_profit": "8.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "14.7% trailing after 3.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LOW",
+      "yahoo_url": "https://finance.yahoo.com/quote/LOW/"
+    },
+    {
+      "symbol": "PEP",
+      "action": "BUY",
+      "current_position": 58.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.5% below entry",
+      "take_profit": "7.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "12.2% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PEP",
+      "yahoo_url": "https://finance.yahoo.com/quote/PEP/"
+    },
+    {
+      "symbol": "ECL",
+      "action": "BUY",
+      "current_position": 32.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.2% below entry",
+      "take_profit": "6.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "12.1% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ECL",
+      "yahoo_url": "https://finance.yahoo.com/quote/ECL/"
+    },
+    {
+      "symbol": "MRK",
+      "action": "BUY",
+      "current_position": 85.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.1% below entry",
+      "take_profit": "9.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.1% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MRK",
+      "yahoo_url": "https://finance.yahoo.com/quote/MRK/"
+    },
+    {
+      "symbol": "MCD",
+      "action": "BUY",
+      "current_position": 28.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "15.3% below entry",
+      "take_profit": "6.1% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "10.7% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MCD",
+      "yahoo_url": "https://finance.yahoo.com/quote/MCD/"
+    },
+    {
+      "symbol": "WMT",
+      "action": "BUY",
+      "current_position": 77.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.8% below entry",
+      "take_profit": "7.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "13.8% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/WMT/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-5.13%",
+    "sharpe_ratio": "-0.53",
+    "max_drawdown": "-15.46%",
+    "win_rate": "50.73%",
+    "alpha": "-24.88%"
+  }
+}

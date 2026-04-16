@@ -1,0 +1,80 @@
+{
+  "strategy_name": "preferred_equity_income",
+  "is_winning": true,
+  "generated_at": "2026-04-14T07:24:30.975247",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "7.4%",
+    "stop_loss": "20.0%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "7.9%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on ex-dividend date dips or when yield exceeds 5-year average.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Build position over 4-6 weeks. Reinvest all dividends."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "PFF",
+      "action": "BUY",
+      "current_position": 888.0,
+      "annual_volatility": "8%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.0% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "14.9% of portfolio",
+      "trailing_stop": "7.0% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PFF",
+      "yahoo_url": "https://finance.yahoo.com/quote/PFF/"
+    },
+    {
+      "symbol": "PGX",
+      "action": "BUY",
+      "current_position": 2440.0,
+      "annual_volatility": "8%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.0% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "14.9% of portfolio",
+      "trailing_stop": "7.0% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PGX",
+      "yahoo_url": "https://finance.yahoo.com/quote/PGX/"
+    },
+    {
+      "symbol": "PFFD",
+      "action": "BUY",
+      "current_position": 1460.0,
+      "annual_volatility": "8%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.0% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "14.9% of portfolio",
+      "trailing_stop": "7.0% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PFFD",
+      "yahoo_url": "https://finance.yahoo.com/quote/PFFD/"
+    },
+    {
+      "symbol": "SHY",
+      "action": "BUY",
+      "current_position": 211.0,
+      "annual_volatility": "2%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.0% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "14.9% of portfolio",
+      "trailing_stop": "7.0% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHY/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "15.98%",
+    "sharpe_ratio": "0.21",
+    "max_drawdown": "-7.92%",
+    "win_rate": "53.53%",
+    "alpha": "-61.29%"
+  }
+}

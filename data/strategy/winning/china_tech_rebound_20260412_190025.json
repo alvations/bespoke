@@ -1,0 +1,80 @@
+{
+  "strategy_name": "china_tech_rebound",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:25.001505",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "2.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "30.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy when local market index is above SMA200. FX matters \u2014 check currency trend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 2-4 weeks. Currency hedging optional."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "BIDU",
+      "action": "BUY",
+      "current_position": 123.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.4% above entry",
+      "position_size": "1.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BIDU",
+      "yahoo_url": "https://finance.yahoo.com/quote/BIDU/"
+    },
+    {
+      "symbol": "FXI",
+      "action": "BUY",
+      "current_position": 405.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.2% above entry",
+      "position_size": "1.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FXI",
+      "yahoo_url": "https://finance.yahoo.com/quote/FXI/"
+    },
+    {
+      "symbol": "ZTO",
+      "action": "BUY",
+      "current_position": 737.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.7% below entry",
+      "take_profit": "11.1% above entry",
+      "position_size": "1.4% of portfolio",
+      "trailing_stop": "24.3% trailing after 4.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ZTO",
+      "yahoo_url": "https://finance.yahoo.com/quote/ZTO/"
+    },
+    {
+      "symbol": "TME",
+      "action": "BUY",
+      "current_position": 906.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "17.7% above entry",
+      "position_size": "0.9% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TME",
+      "yahoo_url": "https://finance.yahoo.com/quote/TME/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "4.12%",
+    "sharpe_ratio": "0.03",
+    "max_drawdown": "-30.58%",
+    "win_rate": "43.01%",
+    "alpha": "-21.77%"
+  }
+}

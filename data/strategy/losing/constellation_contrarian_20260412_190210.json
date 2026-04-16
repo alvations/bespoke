@@ -1,0 +1,145 @@
+{
+  "strategy_name": "constellation_contrarian",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:02:09.405839",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "30.0%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "26.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy below SMA200 or at RSI < 35. Value = patience. Don't rush.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 4-6 weeks as price confirms bottom."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "LULU",
+      "action": "BUY",
+      "current_position": 44.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "19.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LULU",
+      "yahoo_url": "https://finance.yahoo.com/quote/LULU/"
+    },
+    {
+      "symbol": "NKE",
+      "action": "BUY",
+      "current_position": 154.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "17.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NKE",
+      "yahoo_url": "https://finance.yahoo.com/quote/NKE/"
+    },
+    {
+      "symbol": "EFX",
+      "action": "BUY",
+      "current_position": 42.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "14.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EFX",
+      "yahoo_url": "https://finance.yahoo.com/quote/EFX/"
+    },
+    {
+      "symbol": "SAM",
+      "action": "BUY",
+      "current_position": 60.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.7% below entry",
+      "take_profit": "13.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "27.8% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SAM",
+      "yahoo_url": "https://finance.yahoo.com/quote/SAM/"
+    },
+    {
+      "symbol": "DEO",
+      "action": "BUY",
+      "current_position": 137.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "36.5% below entry",
+      "take_profit": "12.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "25.6% trailing after 4.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DEO",
+      "yahoo_url": "https://finance.yahoo.com/quote/DEO/"
+    },
+    {
+      "symbol": "BUD",
+      "action": "BUY",
+      "current_position": 146.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "29.9% below entry",
+      "take_profit": "10.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "20.9% trailing after 4.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BUD",
+      "yahoo_url": "https://finance.yahoo.com/quote/BUD/"
+    },
+    {
+      "symbol": "PVH",
+      "action": "BUY",
+      "current_position": 174.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "19.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PVH",
+      "yahoo_url": "https://finance.yahoo.com/quote/PVH/"
+    },
+    {
+      "symbol": "MNST",
+      "action": "BUY",
+      "current_position": 121.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "30.7% below entry",
+      "take_profit": "10.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "21.5% trailing after 4.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MNST",
+      "yahoo_url": "https://finance.yahoo.com/quote/MNST/"
+    },
+    {
+      "symbol": "STZ",
+      "action": "BUY",
+      "current_position": 68.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "37.5% below entry",
+      "take_profit": "12.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "26.2% trailing after 5.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=STZ",
+      "yahoo_url": "https://finance.yahoo.com/quote/STZ/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-1.87%",
+    "sharpe_ratio": "-0.19",
+    "max_drawdown": "-26.51%",
+    "win_rate": "48.87%",
+    "alpha": "-23.76%"
+  }
+}

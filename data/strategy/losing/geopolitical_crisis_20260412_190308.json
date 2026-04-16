@@ -1,0 +1,145 @@
+{
+  "strategy_name": "geopolitical_crisis",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:03:07.067781",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "21.4%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "21.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "HAL",
+      "action": "BUY",
+      "current_position": 410.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.5% below entry",
+      "take_profit": "8.1% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "24.1% trailing after 3.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HAL",
+      "yahoo_url": "https://finance.yahoo.com/quote/HAL/"
+    },
+    {
+      "symbol": "XLE",
+      "action": "BUY",
+      "current_position": 259.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.4% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "14.3% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XLE",
+      "yahoo_url": "https://finance.yahoo.com/quote/XLE/"
+    },
+    {
+      "symbol": "DVN",
+      "action": "BUY",
+      "current_position": 319.0,
+      "annual_volatility": "37%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.0% below entry",
+      "take_profit": "7.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.1% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DVN",
+      "yahoo_url": "https://finance.yahoo.com/quote/DVN/"
+    },
+    {
+      "symbol": "RTX",
+      "action": "BUY",
+      "current_position": 62.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.3% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "15.6% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=RTX",
+      "yahoo_url": "https://finance.yahoo.com/quote/RTX/"
+    },
+    {
+      "symbol": "ITA",
+      "action": "BUY",
+      "current_position": 53.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.2% below entry",
+      "take_profit": "4.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "13.4% trailing after 1.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ITA",
+      "yahoo_url": "https://finance.yahoo.com/quote/ITA/"
+    },
+    {
+      "symbol": "LMT",
+      "action": "BUY",
+      "current_position": 24.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.5% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "15.8% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/LMT/"
+    },
+    {
+      "symbol": "NOC",
+      "action": "BUY",
+      "current_position": 20.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.0% below entry",
+      "take_profit": "5.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.1% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NOC",
+      "yahoo_url": "https://finance.yahoo.com/quote/NOC/"
+    },
+    {
+      "symbol": "SLV",
+      "action": "BUY",
+      "current_position": 76.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SLV",
+      "yahoo_url": "https://finance.yahoo.com/quote/SLV/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 13.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.6% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "14.4% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "0.08%",
+    "sharpe_ratio": "-0.34",
+    "max_drawdown": "-21.37%",
+    "win_rate": "51.80%",
+    "alpha": "-23.10%"
+  }
+}

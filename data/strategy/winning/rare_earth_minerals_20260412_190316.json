@@ -1,0 +1,132 @@
+{
+  "strategy_name": "rare_earth_minerals",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:03:15.014613",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "8.2%",
+    "stop_loss": "23.1%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "15.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on golden cross (SMA50 > SMA200). These are CYCLE trades \u2014 timing matters.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 30% at signal, add 30% on confirmation, hold 40% for cycle peak."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "ALB",
+      "action": "BUY",
+      "current_position": 128.0,
+      "annual_volatility": "60%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "37.6% above entry",
+      "position_size": "3.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 15.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ALB",
+      "yahoo_url": "https://finance.yahoo.com/quote/ALB/"
+    },
+    {
+      "symbol": "SCCO",
+      "action": "BUY",
+      "current_position": 129.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "27.2% above entry",
+      "position_size": "4.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SCCO",
+      "yahoo_url": "https://finance.yahoo.com/quote/SCCO/"
+    },
+    {
+      "symbol": "XME",
+      "action": "BUY",
+      "current_position": 175.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "31.5% below entry",
+      "take_profit": "20.4% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "22.0% trailing after 8.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XME",
+      "yahoo_url": "https://finance.yahoo.com/quote/XME/"
+    },
+    {
+      "symbol": "SQM",
+      "action": "BUY",
+      "current_position": 263.0,
+      "annual_volatility": "90%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "45.0% above entry",
+      "position_size": "2.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 18.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SQM",
+      "yahoo_url": "https://finance.yahoo.com/quote/SQM/"
+    },
+    {
+      "symbol": "CCJ",
+      "action": "BUY",
+      "current_position": 199.0,
+      "annual_volatility": "51%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "32.4% above entry",
+      "position_size": "3.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 13.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CCJ",
+      "yahoo_url": "https://finance.yahoo.com/quote/CCJ/"
+    },
+    {
+      "symbol": "REMX",
+      "action": "BUY",
+      "current_position": 249.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "26.6% above entry",
+      "position_size": "4.6% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=REMX",
+      "yahoo_url": "https://finance.yahoo.com/quote/REMX/"
+    },
+    {
+      "symbol": "PICK",
+      "action": "BUY",
+      "current_position": 361.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.3% below entry",
+      "take_profit": "17.0% above entry",
+      "position_size": "7.2% of portfolio",
+      "trailing_stop": "18.4% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PICK",
+      "yahoo_url": "https://finance.yahoo.com/quote/PICK/"
+    },
+    {
+      "symbol": "FCX",
+      "action": "BUY",
+      "current_position": 359.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "28.6% above entry",
+      "position_size": "4.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 11.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FCX",
+      "yahoo_url": "https://finance.yahoo.com/quote/FCX/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "62.28%",
+    "sharpe_ratio": "0.74",
+    "max_drawdown": "-15.43%",
+    "win_rate": "47.54%",
+    "alpha": "-5.55%"
+  }
+}

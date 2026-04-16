@@ -1,0 +1,54 @@
+{
+  "strategy_name": "buyback_yield_systematic",
+  "is_winning": true,
+  "generated_at": "2026-04-13T19:46:23.693712",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "10.6%",
+    "stop_loss": "5.5%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "5.5%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SHY",
+      "action": "BUY",
+      "current_position": 728.0,
+      "annual_volatility": "2%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "2.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "21.2% of portfolio",
+      "trailing_stop": "1.9% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHY/"
+    },
+    {
+      "symbol": "PKW",
+      "action": "BUY",
+      "current_position": 395.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "3.9% below entry",
+      "take_profit": "3.6% above entry",
+      "position_size": "14.9% of portfolio",
+      "trailing_stop": "2.7% trailing after 1.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PKW",
+      "yahoo_url": "https://finance.yahoo.com/quote/PKW/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "25.15%",
+    "sharpe_ratio": "0.66",
+    "max_drawdown": "-5.46%",
+    "win_rate": "53.13%",
+    "alpha": "-58.58%"
+  }
+}

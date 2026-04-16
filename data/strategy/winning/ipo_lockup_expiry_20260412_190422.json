@@ -1,0 +1,54 @@
+{
+  "strategy_name": "ipo_lockup_expiry",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:04:22.617558",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "9.5%",
+    "stop_loss": "22.7%",
+    "take_profit_target": "16.7%",
+    "max_drawdown_tolerance": "22.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "KVYO",
+      "action": "BUY",
+      "current_position": 874.0,
+      "annual_volatility": "59%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "41.5% above entry",
+      "position_size": "3.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 16.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=KVYO",
+      "yahoo_url": "https://finance.yahoo.com/quote/KVYO/"
+    },
+    {
+      "symbol": "CAVA",
+      "action": "BUY",
+      "current_position": 484.0,
+      "annual_volatility": "58%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "40.6% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "28.0% trailing after 16.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CAVA",
+      "yahoo_url": "https://finance.yahoo.com/quote/CAVA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "136.63%",
+    "sharpe_ratio": "1.05",
+    "max_drawdown": "-22.74%",
+    "win_rate": "51.80%",
+    "alpha": "10.26%"
+  }
+}

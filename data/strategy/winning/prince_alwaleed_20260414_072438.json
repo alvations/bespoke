@@ -1,0 +1,119 @@
+{
+  "strategy_name": "prince_alwaleed",
+  "is_winning": true,
+  "generated_at": "2026-04-14T07:24:37.387348",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "13.9%",
+    "stop_loss": "12.3%",
+    "take_profit_target": "12.9%",
+    "max_drawdown_tolerance": "12.3%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "GS",
+      "action": "BUY",
+      "current_position": 29.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "16.2% below entry",
+      "take_profit": "16.9% above entry",
+      "position_size": "10.6% of portfolio",
+      "trailing_stop": "11.3% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GS",
+      "yahoo_url": "https://finance.yahoo.com/quote/GS/"
+    },
+    {
+      "symbol": "C",
+      "action": "BUY",
+      "current_position": 224.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "16.5% below entry",
+      "take_profit": "17.2% above entry",
+      "position_size": "10.4% of portfolio",
+      "trailing_stop": "11.5% trailing after 6.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=C",
+      "yahoo_url": "https://finance.yahoo.com/quote/C/"
+    },
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 75.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.2% below entry",
+      "take_profit": "13.8% above entry",
+      "position_size": "13.0% of portfolio",
+      "trailing_stop": "9.2% trailing after 5.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "MA",
+      "action": "BUY",
+      "current_position": 42.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.2% below entry",
+      "take_profit": "11.7% above entry",
+      "position_size": "15.4% of portfolio",
+      "trailing_stop": "7.8% trailing after 4.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MA",
+      "yahoo_url": "https://finance.yahoo.com/quote/MA/"
+    },
+    {
+      "symbol": "BAC",
+      "action": "BUY",
+      "current_position": 435.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.4% below entry",
+      "take_profit": "14.0% above entry",
+      "position_size": "12.9% of portfolio",
+      "trailing_stop": "9.3% trailing after 5.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BAC",
+      "yahoo_url": "https://finance.yahoo.com/quote/BAC/"
+    },
+    {
+      "symbol": "LVMUY",
+      "action": "BUY",
+      "current_position": 154.0,
+      "annual_volatility": "34%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "17.6% below entry",
+      "take_profit": "18.4% above entry",
+      "position_size": "9.8% of portfolio",
+      "trailing_stop": "12.3% trailing after 7.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LVMUY",
+      "yahoo_url": "https://finance.yahoo.com/quote/LVMUY/"
+    },
+    {
+      "symbol": "DIS",
+      "action": "BUY",
+      "current_position": 216.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.2% below entry",
+      "take_profit": "14.8% above entry",
+      "position_size": "12.1% of portfolio",
+      "trailing_stop": "9.9% trailing after 5.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DIS",
+      "yahoo_url": "https://finance.yahoo.com/quote/DIS/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "98.77%",
+    "sharpe_ratio": "1.49",
+    "max_drawdown": "-12.34%",
+    "win_rate": "53.01%",
+    "alpha": "-39.64%"
+  }
+}

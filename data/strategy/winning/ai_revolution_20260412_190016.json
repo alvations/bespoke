@@ -1,0 +1,132 @@
+{
+  "strategy_name": "ai_revolution",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:15.369827",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "10.6%",
+    "stop_loss": "18.0%",
+    "take_profit_target": "23.7%",
+    "max_drawdown_tolerance": "27.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on RSI pullback to 40-50 in confirmed uptrend. Never chase.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 50% initial, add 25% on first pullback, final 25% on trend confirmation."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SMH",
+      "action": "BUY",
+      "current_position": 84.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.4% below entry",
+      "take_profit": "37.5% above entry",
+      "position_size": "6.7% of portfolio",
+      "trailing_stop": "19.9% trailing after 15.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SMH",
+      "yahoo_url": "https://finance.yahoo.com/quote/SMH/"
+    },
+    {
+      "symbol": "SOXX",
+      "action": "BUY",
+      "current_position": 101.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "29.5% below entry",
+      "take_profit": "39.0% above entry",
+      "position_size": "6.5% of portfolio",
+      "trailing_stop": "20.7% trailing after 15.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SOXX",
+      "yahoo_url": "https://finance.yahoo.com/quote/SOXX/"
+    },
+    {
+      "symbol": "HPE",
+      "action": "BUY",
+      "current_position": 1272.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "32.0% below entry",
+      "take_profit": "42.2% above entry",
+      "position_size": "6.0% of portfolio",
+      "trailing_stop": "22.4% trailing after 16.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HPE",
+      "yahoo_url": "https://finance.yahoo.com/quote/HPE/"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "current_position": 98.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.6% below entry",
+      "take_profit": "29.8% above entry",
+      "position_size": "8.4% of portfolio",
+      "trailing_stop": "15.8% trailing after 11.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GOOGL",
+      "yahoo_url": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    {
+      "symbol": "PLTR",
+      "action": "BUY",
+      "current_position": 167.0,
+      "annual_volatility": "64%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "63.6% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 25.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PLTR",
+      "yahoo_url": "https://finance.yahoo.com/quote/PLTR/"
+    },
+    {
+      "symbol": "TSM",
+      "action": "BUY",
+      "current_position": 102.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "31.4% below entry",
+      "take_profit": "41.5% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "22.0% trailing after 16.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TSM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TSM/"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "BUY",
+      "current_position": 163.0,
+      "annual_volatility": "49%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "36.7% below entry",
+      "take_profit": "48.5% above entry",
+      "position_size": "5.2% of portfolio",
+      "trailing_stop": "25.7% trailing after 19.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NVDA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "BUY",
+      "current_position": 132.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.9% below entry",
+      "take_profit": "32.8% above entry",
+      "position_size": "7.7% of portfolio",
+      "trailing_stop": "17.4% trailing after 13.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMZN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMZN/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "170.90%",
+    "sharpe_ratio": "1.21",
+    "max_drawdown": "-27.39%",
+    "win_rate": "50.20%",
+    "alpha": "16.43%"
+  }
+}

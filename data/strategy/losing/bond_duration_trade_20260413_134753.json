@@ -1,0 +1,80 @@
+{
+  "strategy_name": "bond_duration_trade",
+  "is_winning": false,
+  "generated_at": "2026-04-13T13:47:52.858672",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "10.2%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "10.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "IEF",
+      "action": "BUY",
+      "current_position": 149.0,
+      "annual_volatility": "6%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.1% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "3.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=IEF",
+      "yahoo_url": "https://finance.yahoo.com/quote/IEF/"
+    },
+    {
+      "symbol": "TIP",
+      "action": "BUY",
+      "current_position": 86.0,
+      "annual_volatility": "4%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.1% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "3.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TIP",
+      "yahoo_url": "https://finance.yahoo.com/quote/TIP/"
+    },
+    {
+      "symbol": "SHY",
+      "action": "BUY",
+      "current_position": 405.0,
+      "annual_volatility": "2%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.1% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "3.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHY/"
+    },
+    {
+      "symbol": "BIL",
+      "action": "BUY",
+      "current_position": 262.0,
+      "annual_volatility": "0%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.1% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "3.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BIL",
+      "yahoo_url": "https://finance.yahoo.com/quote/BIL/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-5.18%",
+    "sharpe_ratio": "-1.00",
+    "max_drawdown": "-10.18%",
+    "win_rate": "53.26%",
+    "alpha": "-24.90%"
+  }
+}

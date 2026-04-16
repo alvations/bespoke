@@ -1,0 +1,171 @@
+{
+  "strategy_name": "gross_profitability_value",
+  "is_winning": true,
+  "generated_at": "2026-04-13T19:46:25.259628",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.2%",
+    "stop_loss": "18.9%",
+    "take_profit_target": "14.7%",
+    "max_drawdown_tolerance": "15.7%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy below SMA200 or at RSI < 35. Value = patience. Don't rush.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 4-6 weeks as price confirms bottom."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "V",
+      "action": "BUY",
+      "current_position": 41.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.2% below entry",
+      "take_profit": "13.4% above entry",
+      "position_size": "13.4% of portfolio",
+      "trailing_stop": "12.0% trailing after 5.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=V",
+      "yahoo_url": "https://finance.yahoo.com/quote/V/"
+    },
+    {
+      "symbol": "MCD",
+      "action": "BUY",
+      "current_position": 45.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.3% below entry",
+      "take_profit": "11.2% above entry",
+      "position_size": "16.1% of portfolio",
+      "trailing_stop": "10.0% trailing after 4.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MCD",
+      "yahoo_url": "https://finance.yahoo.com/quote/MCD/"
+    },
+    {
+      "symbol": "MA",
+      "action": "BUY",
+      "current_position": 25.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.0% below entry",
+      "take_profit": "13.3% above entry",
+      "position_size": "13.5% of portfolio",
+      "trailing_stop": "11.9% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MA",
+      "yahoo_url": "https://finance.yahoo.com/quote/MA/"
+    },
+    {
+      "symbol": "SBUX",
+      "action": "BUY",
+      "current_position": 160.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.5% below entry",
+      "take_profit": "22.3% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "20.0% trailing after 8.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SBUX",
+      "yahoo_url": "https://finance.yahoo.com/quote/SBUX/"
+    },
+    {
+      "symbol": "YUM",
+      "action": "BUY",
+      "current_position": 90.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.3% below entry",
+      "take_profit": "13.5% above entry",
+      "position_size": "13.3% of portfolio",
+      "trailing_stop": "12.1% trailing after 5.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=YUM",
+      "yahoo_url": "https://finance.yahoo.com/quote/YUM/"
+    },
+    {
+      "symbol": "COST",
+      "action": "BUY",
+      "current_position": 15.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "16.3% below entry",
+      "take_profit": "12.7% above entry",
+      "position_size": "14.1% of portfolio",
+      "trailing_stop": "11.4% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=COST",
+      "yahoo_url": "https://finance.yahoo.com/quote/COST/"
+    },
+    {
+      "symbol": "CMG",
+      "action": "BUY",
+      "current_position": 394.0,
+      "annual_volatility": "37%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "29.1% below entry",
+      "take_profit": "22.7% above entry",
+      "position_size": "7.9% of portfolio",
+      "trailing_stop": "20.4% trailing after 9.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CMG",
+      "yahoo_url": "https://finance.yahoo.com/quote/CMG/"
+    },
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 48.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.7% below entry",
+      "take_profit": "17.7% above entry",
+      "position_size": "10.2% of portfolio",
+      "trailing_stop": "15.9% trailing after 7.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    },
+    {
+      "symbol": "NKE",
+      "action": "BUY",
+      "current_position": 208.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "32.0% below entry",
+      "take_profit": "25.0% above entry",
+      "position_size": "7.2% of portfolio",
+      "trailing_stop": "22.4% trailing after 10.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NKE",
+      "yahoo_url": "https://finance.yahoo.com/quote/NKE/"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "BUY",
+      "current_position": 28.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.3% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "11.9% of portfolio",
+      "trailing_stop": "13.5% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MSFT",
+      "yahoo_url": "https://finance.yahoo.com/quote/MSFT/"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "current_position": 43.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.7% below entry",
+      "take_profit": "18.5% above entry",
+      "position_size": "9.7% of portfolio",
+      "trailing_stop": "16.6% trailing after 7.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GOOGL",
+      "yahoo_url": "https://finance.yahoo.com/quote/GOOGL/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "65.79%",
+    "sharpe_ratio": "0.91",
+    "max_drawdown": "-15.71%",
+    "win_rate": "55.89%",
+    "alpha": "-47.04%"
+  }
+}

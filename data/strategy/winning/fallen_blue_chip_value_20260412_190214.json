@@ -1,0 +1,54 @@
+{
+  "strategy_name": "fallen_blue_chip_value",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:14.052577",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.0%",
+    "stop_loss": "14.1%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "11.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy below SMA200 or at RSI < 35. Value = patience. Don't rush.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 4-6 weeks as price confirms bottom."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "PFE",
+      "action": "BUY",
+      "current_position": 600.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.5% below entry",
+      "take_profit": "10.3% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "10.1% trailing after 4.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PFE",
+      "yahoo_url": "https://finance.yahoo.com/quote/PFE/"
+    },
+    {
+      "symbol": "MDT",
+      "action": "BUY",
+      "current_position": 155.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.0% below entry",
+      "take_profit": "8.5% above entry",
+      "position_size": "5.9% of portfolio",
+      "trailing_stop": "8.4% trailing after 3.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MDT",
+      "yahoo_url": "https://finance.yahoo.com/quote/MDT/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "22.85%",
+    "sharpe_ratio": "0.29",
+    "max_drawdown": "-11.73%",
+    "win_rate": "49.80%",
+    "alpha": "-16.01%"
+  }
+}

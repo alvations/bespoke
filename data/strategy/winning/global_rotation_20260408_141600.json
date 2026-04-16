@@ -1,0 +1,119 @@
+{
+  "strategy_name": "global_rotation",
+  "is_winning": true,
+  "generated_at": "2026-04-08T15:25:09.710232",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "4.9%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "26.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.9% below entry",
+      "take_profit": "3.6% above entry",
+      "position_size": "6.9% of portfolio",
+      "trailing_stop": "12.5% trailing after 1.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPY/"
+    },
+    {
+      "symbol": "SONY",
+      "action": "BUY",
+      "current_position": 807.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "31.5% below entry",
+      "take_profit": "6.3% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "22.1% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SONY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SONY/"
+    },
+    {
+      "symbol": "TM",
+      "action": "BUY",
+      "current_position": 93.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "31.2% below entry",
+      "take_profit": "6.2% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "21.9% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TM/"
+    },
+    {
+      "symbol": "INFY",
+      "action": "BUY",
+      "current_position": 746.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "31.3% below entry",
+      "take_profit": "6.3% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "21.9% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=INFY",
+      "yahoo_url": "https://finance.yahoo.com/quote/INFY/"
+    },
+    {
+      "symbol": "SAP",
+      "action": "BUY",
+      "current_position": 67.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "31.4% below entry",
+      "take_profit": "6.3% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "21.9% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SAP",
+      "yahoo_url": "https://finance.yahoo.com/quote/SAP/"
+    },
+    {
+      "symbol": "EWJ",
+      "action": "BUY",
+      "current_position": 242.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.6% below entry",
+      "take_profit": "4.3% above entry",
+      "position_size": "5.7% of portfolio",
+      "trailing_stop": "15.1% trailing after 1.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWJ",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWJ/"
+    },
+    {
+      "symbol": "SE",
+      "action": "BUY",
+      "current_position": 142.0,
+      "annual_volatility": "47%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.9% above entry",
+      "position_size": "2.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SE",
+      "yahoo_url": "https://finance.yahoo.com/quote/SE/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "26.03%",
+    "sharpe_ratio": "0.35",
+    "max_drawdown": "-26.15%",
+    "win_rate": "49.47%",
+    "alpha": "-0.62%"
+  }
+}

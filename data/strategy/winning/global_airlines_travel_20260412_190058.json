@@ -1,0 +1,132 @@
+{
+  "strategy_name": "global_airlines_travel",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:57.563780",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "7.1%",
+    "stop_loss": "20.9%",
+    "take_profit_target": "8.3%",
+    "max_drawdown_tolerance": "20.9%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "EXPE",
+      "action": "BUY",
+      "current_position": 62.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.8% below entry",
+      "take_profit": "15.9% above entry",
+      "position_size": "3.7% of portfolio",
+      "trailing_stop": "27.8% trailing after 6.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EXPE",
+      "yahoo_url": "https://finance.yahoo.com/quote/EXPE/"
+    },
+    {
+      "symbol": "MAR",
+      "action": "BUY",
+      "current_position": 57.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.1% below entry",
+      "take_profit": "9.6% above entry",
+      "position_size": "6.2% of portfolio",
+      "trailing_stop": "16.9% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MAR",
+      "yahoo_url": "https://finance.yahoo.com/quote/MAR/"
+    },
+    {
+      "symbol": "UAL",
+      "action": "BUY",
+      "current_position": 160.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "18.5% above entry",
+      "position_size": "3.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UAL",
+      "yahoo_url": "https://finance.yahoo.com/quote/UAL/"
+    },
+    {
+      "symbol": "TCOM",
+      "action": "BUY",
+      "current_position": 246.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "38.1% below entry",
+      "take_profit": "15.2% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "26.6% trailing after 6.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TCOM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TCOM/"
+    },
+    {
+      "symbol": "JBLU",
+      "action": "BUY",
+      "current_position": 3944.0,
+      "annual_volatility": "69%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.2% above entry",
+      "position_size": "2.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JBLU",
+      "yahoo_url": "https://finance.yahoo.com/quote/JBLU/"
+    },
+    {
+      "symbol": "AAL",
+      "action": "BUY",
+      "current_position": 1180.0,
+      "annual_volatility": "50%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "17.6% above entry",
+      "position_size": "3.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAL/"
+    },
+    {
+      "symbol": "DAL",
+      "action": "BUY",
+      "current_position": 258.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.7% below entry",
+      "take_profit": "15.9% above entry",
+      "position_size": "3.8% of portfolio",
+      "trailing_stop": "27.8% trailing after 6.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DAL",
+      "yahoo_url": "https://finance.yahoo.com/quote/DAL/"
+    },
+    {
+      "symbol": "LUV",
+      "action": "BUY",
+      "current_position": 436.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "37.2% below entry",
+      "take_profit": "14.9% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "26.0% trailing after 5.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LUV",
+      "yahoo_url": "https://finance.yahoo.com/quote/LUV/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "58.62%",
+    "sharpe_ratio": "0.67",
+    "max_drawdown": "-20.85%",
+    "win_rate": "51.26%",
+    "alpha": "-6.44%"
+  }
+}

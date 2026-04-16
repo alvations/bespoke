@@ -1,0 +1,41 @@
+{
+  "strategy_name": "hurst_regime",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:04:43.127096",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "11.9%",
+    "stop_loss": "4.1%",
+    "take_profit_target": "2.9%",
+    "max_drawdown_tolerance": "4.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Auto-managed. No manual entry needed \u2014 strategy self-adjusts weekly.",
+    "timing": "ALWAYS ACTIVE: Auto-managed. Switches between growth and defensive weekly based on market conditions. No user timing needed.",
+    "scaling": "Set it and forget it. Review quarterly."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 52.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "4.9% below entry",
+      "take_profit": "3.4% above entry",
+      "position_size": "9.9% of portfolio",
+      "trailing_stop": "3.4% trailing after 1.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "18.06%",
+    "sharpe_ratio": "0.40",
+    "max_drawdown": "-4.06%",
+    "win_rate": "55.53%",
+    "alpha": "-17.42%"
+  }
+}

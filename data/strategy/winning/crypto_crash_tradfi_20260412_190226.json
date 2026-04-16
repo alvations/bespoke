@@ -1,0 +1,54 @@
+{
+  "strategy_name": "crypto_crash_tradfi",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:26.310020",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "8.3%",
+    "stop_loss": "13.0%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "14.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Enter immediately when trigger fires. Speed matters more than price.",
+    "timing": "WAIT FOR SIGNAL: Only enter when crypto is crashing hard (-20%+). Long traditional banks. Exit when crypto stabilizes.",
+    "scaling": "Full position at trigger. No scaling \u2014 the signal is binary."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 28.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.9% below entry",
+      "take_profit": "8.6% above entry",
+      "position_size": "7.8% of portfolio",
+      "trailing_stop": "9.7% trailing after 3.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "BLK",
+      "action": "BUY",
+      "current_position": 8.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.0% below entry",
+      "take_profit": "8.6% above entry",
+      "position_size": "7.7% of portfolio",
+      "trailing_stop": "9.8% trailing after 3.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BLK",
+      "yahoo_url": "https://finance.yahoo.com/quote/BLK/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "11.62%",
+    "sharpe_ratio": "0.01",
+    "max_drawdown": "-14.39%",
+    "win_rate": "56.99%",
+    "alpha": "-19.39%"
+  }
+}

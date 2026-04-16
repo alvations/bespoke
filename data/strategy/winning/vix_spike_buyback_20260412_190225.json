@@ -1,0 +1,80 @@
+{
+  "strategy_name": "vix_spike_buyback",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:25.310782",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "19.6%",
+    "stop_loss": "6.2%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "6.9%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Enter immediately when trigger fires. Speed matters more than price.",
+    "timing": "SAFE TO BUY. Even better: add more during market panic \u2014 these cash-rich companies buy back their own stock at discount prices.",
+    "scaling": "Full position at trigger. No scaling \u2014 the signal is binary."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 33.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.4% below entry",
+      "take_profit": "9.6% above entry",
+      "position_size": "16.3% of portfolio",
+      "trailing_stop": "5.2% trailing after 3.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "current_position": 29.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.8% below entry",
+      "take_profit": "10.1% above entry",
+      "position_size": "15.6% of portfolio",
+      "trailing_stop": "5.4% trailing after 4.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GOOGL",
+      "yahoo_url": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    {
+      "symbol": "META",
+      "action": "BUY",
+      "current_position": 14.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "9.4% below entry",
+      "take_profit": "12.2% above entry",
+      "position_size": "12.9% of portfolio",
+      "trailing_stop": "6.6% trailing after 4.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=META",
+      "yahoo_url": "https://finance.yahoo.com/quote/META/"
+    },
+    {
+      "symbol": "V",
+      "action": "BUY",
+      "current_position": 25.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.6% below entry",
+      "take_profit": "7.3% above entry",
+      "position_size": "21.5% of portfolio",
+      "trailing_stop": "4.0% trailing after 2.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=V",
+      "yahoo_url": "https://finance.yahoo.com/quote/V/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "48.72%",
+    "sharpe_ratio": "1.14",
+    "max_drawdown": "-6.88%",
+    "win_rate": "56.19%",
+    "alpha": "-8.93%"
+  }
+}

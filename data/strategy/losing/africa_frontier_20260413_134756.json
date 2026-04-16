@@ -1,0 +1,80 @@
+{
+  "strategy_name": "africa_frontier",
+  "is_winning": false,
+  "generated_at": "2026-04-13T13:47:55.410915",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "21.5%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "21.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "HMY",
+      "action": "BUY",
+      "current_position": 815.0,
+      "annual_volatility": "61%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "12.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HMY",
+      "yahoo_url": "https://finance.yahoo.com/quote/HMY/"
+    },
+    {
+      "symbol": "AFK",
+      "action": "BUY",
+      "current_position": 619.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.4% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "15.7% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AFK",
+      "yahoo_url": "https://finance.yahoo.com/quote/AFK/"
+    },
+    {
+      "symbol": "EZA",
+      "action": "BUY",
+      "current_position": 238.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "25.4% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "17.8% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EZA",
+      "yahoo_url": "https://finance.yahoo.com/quote/EZA/"
+    },
+    {
+      "symbol": "SBSW",
+      "action": "BUY",
+      "current_position": 1178.0,
+      "annual_volatility": "67%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "14.1% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SBSW",
+      "yahoo_url": "https://finance.yahoo.com/quote/SBSW/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "8.78%",
+    "sharpe_ratio": "-0.04",
+    "max_drawdown": "-21.47%",
+    "win_rate": "43.68%",
+    "alpha": "-20.28%"
+  }
+}

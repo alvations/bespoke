@@ -1,0 +1,158 @@
+{
+  "strategy_name": "bond_fixed_income",
+  "is_winning": false,
+  "generated_at": "2026-04-08T23:04:17.138386",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "23.3%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "19.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "TLT",
+      "action": "BUY",
+      "current_position": 170.0,
+      "annual_volatility": "13%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.3% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TLT",
+      "yahoo_url": "https://finance.yahoo.com/quote/TLT/"
+    },
+    {
+      "symbol": "LQD",
+      "action": "BUY",
+      "current_position": 137.0,
+      "annual_volatility": "7%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LQD",
+      "yahoo_url": "https://finance.yahoo.com/quote/LQD/"
+    },
+    {
+      "symbol": "HYG",
+      "action": "BUY",
+      "current_position": 151.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HYG",
+      "yahoo_url": "https://finance.yahoo.com/quote/HYG/"
+    },
+    {
+      "symbol": "VWOB",
+      "action": "BUY",
+      "current_position": 181.0,
+      "annual_volatility": "6%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VWOB",
+      "yahoo_url": "https://finance.yahoo.com/quote/VWOB/"
+    },
+    {
+      "symbol": "SCHI",
+      "action": "BUY",
+      "current_position": 439.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SCHI",
+      "yahoo_url": "https://finance.yahoo.com/quote/SCHI/"
+    },
+    {
+      "symbol": "VTEB",
+      "action": "BUY",
+      "current_position": 200.0,
+      "annual_volatility": "4%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VTEB",
+      "yahoo_url": "https://finance.yahoo.com/quote/VTEB/"
+    },
+    {
+      "symbol": "AGG",
+      "action": "BUY",
+      "current_position": 81.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AGG",
+      "yahoo_url": "https://finance.yahoo.com/quote/AGG/"
+    },
+    {
+      "symbol": "BND",
+      "action": "BUY",
+      "current_position": 108.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BND",
+      "yahoo_url": "https://finance.yahoo.com/quote/BND/"
+    },
+    {
+      "symbol": "FBND",
+      "action": "BUY",
+      "current_position": 109.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FBND",
+      "yahoo_url": "https://finance.yahoo.com/quote/FBND/"
+    },
+    {
+      "symbol": "SPBO",
+      "action": "BUY",
+      "current_position": 172.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPBO",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPBO/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-0.47%",
+    "sharpe_ratio": "-0.51",
+    "max_drawdown": "-19.46%",
+    "win_rate": "51.00%",
+    "alpha": "-10.98%"
+  }
+}

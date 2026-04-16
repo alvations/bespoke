@@ -1,0 +1,119 @@
+{
+  "strategy_name": "aging_population",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:36.523658",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.1%",
+    "stop_loss": "13.2%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "13.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SYK",
+      "action": "BUY",
+      "current_position": 39.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.8% below entry",
+      "take_profit": "4.4% above entry",
+      "position_size": "5.7% of portfolio",
+      "trailing_stop": "8.2% trailing after 1.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SYK",
+      "yahoo_url": "https://finance.yahoo.com/quote/SYK/"
+    },
+    {
+      "symbol": "ABT",
+      "action": "BUY",
+      "current_position": 115.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.2% below entry",
+      "take_profit": "4.6% above entry",
+      "position_size": "5.5% of portfolio",
+      "trailing_stop": "8.6% trailing after 1.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ABT",
+      "yahoo_url": "https://finance.yahoo.com/quote/ABT/"
+    },
+    {
+      "symbol": "HUM",
+      "action": "BUY",
+      "current_position": 61.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "25.6% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "2.6% of portfolio",
+      "trailing_stop": "17.9% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HUM",
+      "yahoo_url": "https://finance.yahoo.com/quote/HUM/"
+    },
+    {
+      "symbol": "CI",
+      "action": "BUY",
+      "current_position": 54.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "17.0% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "11.9% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CI",
+      "yahoo_url": "https://finance.yahoo.com/quote/CI/"
+    },
+    {
+      "symbol": "UNH",
+      "action": "BUY",
+      "current_position": 46.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "23.9% below entry",
+      "take_profit": "9.0% above entry",
+      "position_size": "2.8% of portfolio",
+      "trailing_stop": "16.7% trailing after 3.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UNH",
+      "yahoo_url": "https://finance.yahoo.com/quote/UNH/"
+    },
+    {
+      "symbol": "ELV",
+      "action": "BUY",
+      "current_position": 45.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "19.2% below entry",
+      "take_profit": "7.2% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "13.4% trailing after 2.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ELV",
+      "yahoo_url": "https://finance.yahoo.com/quote/ELV/"
+    },
+    {
+      "symbol": "PFE",
+      "action": "BUY",
+      "current_position": 587.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.6% below entry",
+      "take_profit": "5.1% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "9.5% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PFE",
+      "yahoo_url": "https://finance.yahoo.com/quote/PFE/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "22.90%",
+    "sharpe_ratio": "0.30",
+    "max_drawdown": "-13.23%",
+    "win_rate": "53.40%",
+    "alpha": "-15.99%"
+  }
+}

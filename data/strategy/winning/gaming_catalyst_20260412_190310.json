@@ -1,0 +1,80 @@
+{
+  "strategy_name": "gaming_catalyst",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:03:10.134205",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "4.3%",
+    "stop_loss": "23.7%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "23.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "U",
+      "action": "BUY",
+      "current_position": 402.0,
+      "annual_volatility": "76%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "1.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=U",
+      "yahoo_url": "https://finance.yahoo.com/quote/U/"
+    },
+    {
+      "symbol": "TTWO",
+      "action": "BUY",
+      "current_position": 71.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "29.4% below entry",
+      "take_profit": "6.2% above entry",
+      "position_size": "3.4% of portfolio",
+      "trailing_stop": "20.6% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TTWO",
+      "yahoo_url": "https://finance.yahoo.com/quote/TTWO/"
+    },
+    {
+      "symbol": "EA",
+      "action": "BUY",
+      "current_position": 89.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "25.9% below entry",
+      "take_profit": "5.5% above entry",
+      "position_size": "3.9% of portfolio",
+      "trailing_stop": "18.1% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EA",
+      "yahoo_url": "https://finance.yahoo.com/quote/EA/"
+    },
+    {
+      "symbol": "WBD",
+      "action": "BUY",
+      "current_position": 628.0,
+      "annual_volatility": "54%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "11.4% above entry",
+      "position_size": "1.9% of portfolio",
+      "trailing_stop": "28.0% trailing after 4.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WBD",
+      "yahoo_url": "https://finance.yahoo.com/quote/WBD/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "20.34%",
+    "sharpe_ratio": "0.22",
+    "max_drawdown": "-23.72%",
+    "win_rate": "52.06%",
+    "alpha": "-16.74%"
+  }
+}

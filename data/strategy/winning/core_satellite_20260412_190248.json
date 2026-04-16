@@ -1,0 +1,106 @@
+{
+  "strategy_name": "core_satellite",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:48.353338",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "16.5%",
+    "stop_loss": "11.6%",
+    "take_profit_target": "13.8%",
+    "max_drawdown_tolerance": "11.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "current_position": 123.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.4% below entry",
+      "take_profit": "9.9% above entry",
+      "position_size": "22.9% of portfolio",
+      "trailing_stop": "5.8% trailing after 4.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPY/"
+    },
+    {
+      "symbol": "BND",
+      "action": "BUY",
+      "current_position": 568.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.8% below entry",
+      "take_profit": "6.9% above entry",
+      "position_size": "32.9% of portfolio",
+      "trailing_stop": "4.1% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BND",
+      "yahoo_url": "https://finance.yahoo.com/quote/BND/"
+    },
+    {
+      "symbol": "AVGO",
+      "action": "BUY",
+      "current_position": 47.0,
+      "annual_volatility": "55%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "26.9% below entry",
+      "take_profit": "31.8% above entry",
+      "position_size": "7.1% of portfolio",
+      "trailing_stop": "18.8% trailing after 12.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AVGO",
+      "yahoo_url": "https://finance.yahoo.com/quote/AVGO/"
+    },
+    {
+      "symbol": "LLY",
+      "action": "BUY",
+      "current_position": 17.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "18.6% below entry",
+      "take_profit": "22.1% above entry",
+      "position_size": "10.3% of portfolio",
+      "trailing_stop": "13.0% trailing after 8.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LLY",
+      "yahoo_url": "https://finance.yahoo.com/quote/LLY/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 47.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.2% below entry",
+      "take_profit": "13.3% above entry",
+      "position_size": "17.1% of portfolio",
+      "trailing_stop": "7.8% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "XLE",
+      "action": "BUY",
+      "current_position": 405.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.1% below entry",
+      "take_profit": "13.2% above entry",
+      "position_size": "17.2% of portfolio",
+      "trailing_stop": "7.8% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XLE",
+      "yahoo_url": "https://finance.yahoo.com/quote/XLE/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "107.14%",
+    "sharpe_ratio": "1.64",
+    "max_drawdown": "-11.64%",
+    "win_rate": "57.39%",
+    "alpha": "4.45%"
+  }
+}

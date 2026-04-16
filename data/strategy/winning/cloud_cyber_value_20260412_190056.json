@@ -1,0 +1,93 @@
+{
+  "strategy_name": "cloud_cyber_value",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:56.482051",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.2%",
+    "stop_loss": "30.0%",
+    "take_profit_target": "10.1%",
+    "max_drawdown_tolerance": "29.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy below SMA200 or at RSI < 35. Value = patience. Don't rush.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 4-6 weeks as price confirms bottom."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "PANW",
+      "action": "BUY",
+      "current_position": 116.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.1% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PANW",
+      "yahoo_url": "https://finance.yahoo.com/quote/PANW/"
+    },
+    {
+      "symbol": "NET",
+      "action": "BUY",
+      "current_position": 108.0,
+      "annual_volatility": "52%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "22.0% above entry",
+      "position_size": "2.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NET",
+      "yahoo_url": "https://finance.yahoo.com/quote/NET/"
+    },
+    {
+      "symbol": "FTNT",
+      "action": "BUY",
+      "current_position": 268.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "17.5% above entry",
+      "position_size": "3.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 7.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FTNT",
+      "yahoo_url": "https://finance.yahoo.com/quote/FTNT/"
+    },
+    {
+      "symbol": "SNOW",
+      "action": "BUY",
+      "current_position": 97.0,
+      "annual_volatility": "54%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "23.2% above entry",
+      "position_size": "2.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SNOW",
+      "yahoo_url": "https://finance.yahoo.com/quote/SNOW/"
+    },
+    {
+      "symbol": "S",
+      "action": "BUY",
+      "current_position": 1441.0,
+      "annual_volatility": "47%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "20.0% above entry",
+      "position_size": "2.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=S",
+      "yahoo_url": "https://finance.yahoo.com/quote/S/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "42.86%",
+    "sharpe_ratio": "0.43",
+    "max_drawdown": "-29.53%",
+    "win_rate": "54.19%",
+    "alpha": "-10.46%"
+  }
+}

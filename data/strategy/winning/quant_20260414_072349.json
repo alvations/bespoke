@@ -1,0 +1,41 @@
+{
+  "strategy_name": "quant",
+  "is_winning": true,
+  "generated_at": "2026-04-14T07:23:48.994258",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.4%",
+    "stop_loss": "11.6%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "11.6%",
+    "rebalance_frequency": "daily"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 66.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.9% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "5.3% of portfolio",
+      "trailing_stop": "9.7% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "19.69%",
+    "sharpe_ratio": "0.26",
+    "max_drawdown": "-11.59%",
+    "win_rate": "44.24%",
+    "alpha": "-59.25%"
+  }
+}

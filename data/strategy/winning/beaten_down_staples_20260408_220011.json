@@ -1,0 +1,41 @@
+{
+  "strategy_name": "beaten_down_staples",
+  "is_winning": true,
+  "generated_at": "2026-04-08T22:00:11.512899",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.4%",
+    "stop_loss": "13.9%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "11.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "MDLZ",
+      "action": "BUY",
+      "current_position": 228.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.6% below entry",
+      "take_profit": "4.5% above entry",
+      "position_size": "6.0% of portfolio",
+      "trailing_stop": "8.8% trailing after 1.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MDLZ",
+      "yahoo_url": "https://finance.yahoo.com/quote/MDLZ/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "16.96%",
+    "sharpe_ratio": "0.19",
+    "max_drawdown": "-11.62%",
+    "win_rate": "48.14%",
+    "alpha": "-3.28%"
+  }
+}

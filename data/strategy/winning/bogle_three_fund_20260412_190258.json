@@ -1,0 +1,67 @@
+{
+  "strategy_name": "bogle_three_fund",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:58.548049",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.9%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "15.9%",
+    "max_drawdown_tolerance": "12.0%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: DCA monthly regardless of price. Add more on 10%+ dips.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Equal monthly contributions. Never try to time entry."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "VTI",
+      "action": "BUY",
+      "current_position": 231.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.0% below entry",
+      "take_profit": "11.5% above entry",
+      "position_size": "17.8% of portfolio",
+      "trailing_stop": "12.6% trailing after 4.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VTI",
+      "yahoo_url": "https://finance.yahoo.com/quote/VTI/"
+    },
+    {
+      "symbol": "BND",
+      "action": "BUY",
+      "current_position": 630.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.5% below entry",
+      "take_profit": "8.0% above entry",
+      "position_size": "25.7% of portfolio",
+      "trailing_stop": "8.8% trailing after 3.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BND",
+      "yahoo_url": "https://finance.yahoo.com/quote/BND/"
+    },
+    {
+      "symbol": "VXUS",
+      "action": "BUY",
+      "current_position": 421.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "16.7% below entry",
+      "take_profit": "10.6% above entry",
+      "position_size": "19.3% of portfolio",
+      "trailing_stop": "11.7% trailing after 4.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VXUS",
+      "yahoo_url": "https://finance.yahoo.com/quote/VXUS/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "55.46%",
+    "sharpe_ratio": "1.09",
+    "max_drawdown": "-11.95%",
+    "win_rate": "56.19%",
+    "alpha": "-7.23%"
+  }
+}

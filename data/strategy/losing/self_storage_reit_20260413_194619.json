@@ -1,0 +1,93 @@
+{
+  "strategy_name": "self_storage_reit",
+  "is_winning": false,
+  "generated_at": "2026-04-13T19:46:18.694787",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "24.6%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "24.6%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "EXR",
+      "action": "BUY",
+      "current_position": 83.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.0% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.2% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EXR",
+      "yahoo_url": "https://finance.yahoo.com/quote/EXR/"
+    },
+    {
+      "symbol": "NSA",
+      "action": "BUY",
+      "current_position": 378.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "36.2% below entry",
+      "take_profit": "7.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "25.4% trailing after 2.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NSA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NSA/"
+    },
+    {
+      "symbol": "PSA",
+      "action": "BUY",
+      "current_position": 40.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.6% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.5% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PSA",
+      "yahoo_url": "https://finance.yahoo.com/quote/PSA/"
+    },
+    {
+      "symbol": "CUBE",
+      "action": "BUY",
+      "current_position": 299.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.0% below entry",
+      "take_profit": "4.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "16.8% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CUBE",
+      "yahoo_url": "https://finance.yahoo.com/quote/CUBE/"
+    },
+    {
+      "symbol": "REXR",
+      "action": "BUY",
+      "current_position": 486.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "28.3% below entry",
+      "take_profit": "5.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "19.8% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=REXR",
+      "yahoo_url": "https://finance.yahoo.com/quote/REXR/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-2.70%",
+    "sharpe_ratio": "-0.21",
+    "max_drawdown": "-24.57%",
+    "win_rate": "52.46%",
+    "alpha": "-67.29%"
+  }
+}

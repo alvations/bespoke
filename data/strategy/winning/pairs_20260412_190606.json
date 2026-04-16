@@ -1,0 +1,132 @@
+{
+  "strategy_name": "pairs",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:06:06.341070",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "13.5%",
+    "stop_loss": "10.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "8.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Enter when Z-score exceeds 2.0. Exit when Z returns to 0.",
+    "timing": "WAIT FOR SIGNAL: Only enter when price spread between paired stocks reaches extreme levels. Exit when spread normalizes.",
+    "scaling": "Full position at entry. No scaling \u2014 it's a convergence trade."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "KO",
+      "action": "BUY",
+      "current_position": 119.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "6.9% below entry",
+      "take_profit": "3.4% above entry",
+      "position_size": "19.6% of portfolio",
+      "trailing_stop": "4.8% trailing after 1.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=KO",
+      "yahoo_url": "https://finance.yahoo.com/quote/KO/"
+    },
+    {
+      "symbol": "PEP",
+      "action": "BUY",
+      "current_position": 58.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.7% below entry",
+      "take_profit": "4.3% above entry",
+      "position_size": "15.5% of portfolio",
+      "trailing_stop": "6.1% trailing after 1.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PEP",
+      "yahoo_url": "https://finance.yahoo.com/quote/PEP/"
+    },
+    {
+      "symbol": "XOM",
+      "action": "BUY",
+      "current_position": 69.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.9% below entry",
+      "take_profit": "4.9% above entry",
+      "position_size": "13.6% of portfolio",
+      "trailing_stop": "6.9% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XOM",
+      "yahoo_url": "https://finance.yahoo.com/quote/XOM/"
+    },
+    {
+      "symbol": "CVX",
+      "action": "BUY",
+      "current_position": 56.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.8% below entry",
+      "take_profit": "4.9% above entry",
+      "position_size": "13.7% of portfolio",
+      "trailing_stop": "6.9% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CVX",
+      "yahoo_url": "https://finance.yahoo.com/quote/CVX/"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.6% below entry",
+      "take_profit": "6.3% above entry",
+      "position_size": "10.7% of portfolio",
+      "trailing_stop": "8.8% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GOOGL",
+      "yahoo_url": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    {
+      "symbol": "META",
+      "action": "BUY",
+      "current_position": 13.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "15.2% below entry",
+      "take_profit": "7.6% above entry",
+      "position_size": "8.9% of portfolio",
+      "trailing_stop": "10.6% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=META",
+      "yahoo_url": "https://finance.yahoo.com/quote/META/"
+    },
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 26.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.7% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "12.6% of portfolio",
+      "trailing_stop": "7.5% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "BAC",
+      "action": "BUY",
+      "current_position": 151.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.8% below entry",
+      "take_profit": "5.4% above entry",
+      "position_size": "12.5% of portfolio",
+      "trailing_stop": "7.6% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BAC",
+      "yahoo_url": "https://finance.yahoo.com/quote/BAC/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "38.42%",
+    "sharpe_ratio": "1.02",
+    "max_drawdown": "-8.25%",
+    "win_rate": "55.93%",
+    "alpha": "-11.64%"
+  }
+}

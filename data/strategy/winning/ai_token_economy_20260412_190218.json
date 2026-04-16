@@ -1,0 +1,145 @@
+{
+  "strategy_name": "ai_token_economy",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:17.281797",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "15.3%",
+    "stop_loss": "18.0%",
+    "take_profit_target": "38.1%",
+    "max_drawdown_tolerance": "28.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on RSI pullback to 40-50 in confirmed uptrend. Never chase.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 50% initial, add 25% on first pullback, final 25% on trend confirmation."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AVGO",
+      "action": "BUY",
+      "current_position": 115.0,
+      "annual_volatility": "55%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "88.0% above entry",
+      "position_size": "6.6% of portfolio",
+      "trailing_stop": "28.0% trailing after 35.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AVGO",
+      "yahoo_url": "https://finance.yahoo.com/quote/AVGO/"
+    },
+    {
+      "symbol": "CEG",
+      "action": "BUY",
+      "current_position": 146.0,
+      "annual_volatility": "60%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "95.8% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "28.0% trailing after 38.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CEG",
+      "yahoo_url": "https://finance.yahoo.com/quote/CEG/"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "BUY",
+      "current_position": 278.0,
+      "annual_volatility": "49%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "36.7% below entry",
+      "take_profit": "77.8% above entry",
+      "position_size": "7.5% of portfolio",
+      "trailing_stop": "25.7% trailing after 31.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NVDA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "symbol": "AMD",
+      "action": "BUY",
+      "current_position": 242.0,
+      "annual_volatility": "57%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "90.9% above entry",
+      "position_size": "6.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 36.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMD",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMD/"
+    },
+    {
+      "symbol": "VRT",
+      "action": "BUY",
+      "current_position": 243.0,
+      "annual_volatility": "67%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "107.0% above entry",
+      "position_size": "5.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 42.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VRT",
+      "yahoo_url": "https://finance.yahoo.com/quote/VRT/"
+    },
+    {
+      "symbol": "NRG",
+      "action": "BUY",
+      "current_position": 326.0,
+      "annual_volatility": "50%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "37.5% below entry",
+      "take_profit": "79.4% above entry",
+      "position_size": "7.3% of portfolio",
+      "trailing_stop": "26.2% trailing after 31.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NRG",
+      "yahoo_url": "https://finance.yahoo.com/quote/NRG/"
+    },
+    {
+      "symbol": "ANET",
+      "action": "BUY",
+      "current_position": 300.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.8% below entry",
+      "take_profit": "84.4% above entry",
+      "position_size": "6.9% of portfolio",
+      "trailing_stop": "27.9% trailing after 33.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ANET",
+      "yahoo_url": "https://finance.yahoo.com/quote/ANET/"
+    },
+    {
+      "symbol": "MRVL",
+      "action": "BUY",
+      "current_position": 610.0,
+      "annual_volatility": "66%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "105.1% above entry",
+      "position_size": "5.6% of portfolio",
+      "trailing_stop": "28.0% trailing after 42.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MRVL",
+      "yahoo_url": "https://finance.yahoo.com/quote/MRVL/"
+    },
+    {
+      "symbol": "VST",
+      "action": "BUY",
+      "current_position": 224.0,
+      "annual_volatility": "64%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "102.5% above entry",
+      "position_size": "5.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 41.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VST",
+      "yahoo_url": "https://finance.yahoo.com/quote/VST/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "335.23%",
+    "sharpe_ratio": "1.64",
+    "max_drawdown": "-28.66%",
+    "win_rate": "55.93%",
+    "alpha": "40.41%"
+  }
+}

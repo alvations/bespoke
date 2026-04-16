@@ -1,0 +1,67 @@
+{
+  "strategy_name": "wealth_barometer",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:27.314146",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.4%",
+    "stop_loss": "15.0%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "22.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Enter immediately when trigger fires. Speed matters more than price.",
+    "timing": "SAFE TO BUY. Even better: add more when discount retailers (Dollar Tree) are struggling \u2014 signals money flowing to premium brands.",
+    "scaling": "Full position at trigger. No scaling \u2014 the signal is binary."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "WMT",
+      "action": "BUY",
+      "current_position": 90.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.7% below entry",
+      "take_profit": "7.9% above entry",
+      "position_size": "6.5% of portfolio",
+      "trailing_stop": "10.3% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/WMT/"
+    },
+    {
+      "symbol": "TJX",
+      "action": "BUY",
+      "current_position": 65.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.3% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "8.5% of portfolio",
+      "trailing_stop": "7.9% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TJX",
+      "yahoo_url": "https://finance.yahoo.com/quote/TJX/"
+    },
+    {
+      "symbol": "COST",
+      "action": "BUY",
+      "current_position": 12.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.0% below entry",
+      "take_profit": "6.9% above entry",
+      "position_size": "7.4% of portfolio",
+      "trailing_stop": "9.1% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=COST",
+      "yahoo_url": "https://finance.yahoo.com/quote/COST/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "25.91%",
+    "sharpe_ratio": "0.35",
+    "max_drawdown": "-22.43%",
+    "win_rate": "54.46%",
+    "alpha": "-15.12%"
+  }
+}

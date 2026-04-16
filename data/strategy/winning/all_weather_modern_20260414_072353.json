@@ -1,0 +1,119 @@
+{
+  "strategy_name": "all_weather_modern",
+  "is_winning": true,
+  "generated_at": "2026-04-14T07:23:52.484271",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.8%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "2.7%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: DCA monthly regardless of price. Add more on 10%+ dips.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Equal monthly contributions. Never try to time entry."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SHY",
+      "action": "BUY",
+      "current_position": 355.0,
+      "annual_volatility": "2%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.5% below entry",
+      "take_profit": "7.5% above entry",
+      "position_size": "25.6% of portfolio",
+      "trailing_stop": "8.8% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHY/"
+    },
+    {
+      "symbol": "TIP",
+      "action": "BUY",
+      "current_position": 159.0,
+      "annual_volatility": "4%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.5% below entry",
+      "take_profit": "7.5% above entry",
+      "position_size": "25.6% of portfolio",
+      "trailing_stop": "8.8% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TIP",
+      "yahoo_url": "https://finance.yahoo.com/quote/TIP/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 8.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.0% below entry",
+      "take_profit": "14.4% above entry",
+      "position_size": "13.3% of portfolio",
+      "trailing_stop": "16.8% trailing after 5.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "VTI",
+      "action": "BUY",
+      "current_position": 11.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.0% below entry",
+      "take_profit": "10.8% above entry",
+      "position_size": "17.7% of portfolio",
+      "trailing_stop": "12.6% trailing after 4.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VTI",
+      "yahoo_url": "https://finance.yahoo.com/quote/VTI/"
+    },
+    {
+      "symbol": "IEF",
+      "action": "BUY",
+      "current_position": 146.0,
+      "annual_volatility": "6%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.5% below entry",
+      "take_profit": "7.5% above entry",
+      "position_size": "25.6% of portfolio",
+      "trailing_stop": "8.8% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=IEF",
+      "yahoo_url": "https://finance.yahoo.com/quote/IEF/"
+    },
+    {
+      "symbol": "XLE",
+      "action": "BUY",
+      "current_position": 77.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "23.8% below entry",
+      "take_profit": "14.3% above entry",
+      "position_size": "13.4% of portfolio",
+      "trailing_stop": "16.7% trailing after 5.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XLE",
+      "yahoo_url": "https://finance.yahoo.com/quote/XLE/"
+    },
+    {
+      "symbol": "VEA",
+      "action": "BUY",
+      "current_position": 9.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "36.9% below entry",
+      "take_profit": "22.1% above entry",
+      "position_size": "8.7% of portfolio",
+      "trailing_stop": "25.8% trailing after 8.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VEA",
+      "yahoo_url": "https://finance.yahoo.com/quote/VEA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "16.22%",
+    "sharpe_ratio": "0.36",
+    "max_drawdown": "-2.66%",
+    "win_rate": "55.26%",
+    "alpha": "-61.22%"
+  }
+}

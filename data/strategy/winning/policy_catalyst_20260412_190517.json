@@ -1,0 +1,158 @@
+{
+  "strategy_name": "policy_catalyst",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:05:16.052772",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "8.5%",
+    "stop_loss": "20.0%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "25.0%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on policy announcement day or day after. Backlogs are locked \u2014 dips are gifts.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 60% immediately on catalyst, add 40% if pullback within 2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "FSLR",
+      "action": "BUY",
+      "current_position": 51.0,
+      "annual_volatility": "59%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.7% above entry",
+      "position_size": "3.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FSLR",
+      "yahoo_url": "https://finance.yahoo.com/quote/FSLR/"
+    },
+    {
+      "symbol": "CAT",
+      "action": "BUY",
+      "current_position": 24.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "26.7% below entry",
+      "take_profit": "13.3% above entry",
+      "position_size": "6.4% of portfolio",
+      "trailing_stop": "18.7% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CAT",
+      "yahoo_url": "https://finance.yahoo.com/quote/CAT/"
+    },
+    {
+      "symbol": "MLM",
+      "action": "BUY",
+      "current_position": 21.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.1% below entry",
+      "take_profit": "10.6% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "14.8% trailing after 4.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MLM",
+      "yahoo_url": "https://finance.yahoo.com/quote/MLM/"
+    },
+    {
+      "symbol": "CLF",
+      "action": "BUY",
+      "current_position": 1008.0,
+      "annual_volatility": "69%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "28.9% above entry",
+      "position_size": "2.9% of portfolio",
+      "trailing_stop": "28.0% trailing after 11.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CLF",
+      "yahoo_url": "https://finance.yahoo.com/quote/CLF/"
+    },
+    {
+      "symbol": "LMT",
+      "action": "BUY",
+      "current_position": 28.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.1% below entry",
+      "take_profit": "10.5% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "14.7% trailing after 4.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/LMT/"
+    },
+    {
+      "symbol": "NOC",
+      "action": "BUY",
+      "current_position": 24.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.5% below entry",
+      "take_profit": "10.8% above entry",
+      "position_size": "7.9% of portfolio",
+      "trailing_stop": "15.1% trailing after 4.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NOC",
+      "yahoo_url": "https://finance.yahoo.com/quote/NOC/"
+    },
+    {
+      "symbol": "TSM",
+      "action": "BUY",
+      "current_position": 45.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.9% below entry",
+      "take_profit": "17.5% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "24.5% trailing after 7.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TSM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TSM/"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "BUY",
+      "current_position": 72.0,
+      "annual_volatility": "49%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "20.4% above entry",
+      "position_size": "4.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NVDA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "symbol": "RTX",
+      "action": "BUY",
+      "current_position": 74.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.9% below entry",
+      "take_profit": "10.5% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "14.6% trailing after 4.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=RTX",
+      "yahoo_url": "https://finance.yahoo.com/quote/RTX/"
+    },
+    {
+      "symbol": "VMC",
+      "action": "BUY",
+      "current_position": 47.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.0% below entry",
+      "take_profit": "11.0% above entry",
+      "position_size": "7.7% of portfolio",
+      "trailing_stop": "15.4% trailing after 4.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VMC",
+      "yahoo_url": "https://finance.yahoo.com/quote/VMC/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "58.31%",
+    "sharpe_ratio": "0.78",
+    "max_drawdown": "-24.99%",
+    "win_rate": "52.86%",
+    "alpha": "-6.52%"
+  }
+}

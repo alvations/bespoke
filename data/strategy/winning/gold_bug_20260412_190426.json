@@ -1,0 +1,80 @@
+{
+  "strategy_name": "gold_bug",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:04:26.293733",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "11.0%",
+    "stop_loss": "15.0%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "18.9%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Always hold some. Add more when SPY breaks below SMA200.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Maintain 5-15% allocation. Add during fear, trim during euphoria."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 147.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.4% below entry",
+      "take_profit": "9.6% above entry",
+      "position_size": "11.4% of portfolio",
+      "trailing_stop": "10.1% trailing after 3.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "GDX",
+      "action": "BUY",
+      "current_position": 455.0,
+      "annual_volatility": "40%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "25.1% below entry",
+      "take_profit": "16.6% above entry",
+      "position_size": "6.6% of portfolio",
+      "trailing_stop": "17.5% trailing after 6.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GDX",
+      "yahoo_url": "https://finance.yahoo.com/quote/GDX/"
+    },
+    {
+      "symbol": "SLV",
+      "action": "BUY",
+      "current_position": 444.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "29.2% below entry",
+      "take_profit": "19.4% above entry",
+      "position_size": "5.6% of portfolio",
+      "trailing_stop": "20.5% trailing after 7.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SLV",
+      "yahoo_url": "https://finance.yahoo.com/quote/SLV/"
+    },
+    {
+      "symbol": "NEM",
+      "action": "BUY",
+      "current_position": 196.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "25.9% below entry",
+      "take_profit": "17.2% above entry",
+      "position_size": "6.3% of portfolio",
+      "trailing_stop": "18.1% trailing after 6.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NEM",
+      "yahoo_url": "https://finance.yahoo.com/quote/NEM/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "94.42%",
+    "sharpe_ratio": "1.13",
+    "max_drawdown": "-18.93%",
+    "win_rate": "52.86%",
+    "alpha": "1.77%"
+  }
+}

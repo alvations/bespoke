@@ -1,0 +1,132 @@
+{
+  "strategy_name": "glp1_obesity",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:38.561201",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.5%",
+    "stop_loss": "18.1%",
+    "take_profit_target": "5.2%",
+    "max_drawdown_tolerance": "18.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "PFE",
+      "action": "BUY",
+      "current_position": 620.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.6% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "5.4% of portfolio",
+      "trailing_stop": "13.0% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PFE",
+      "yahoo_url": "https://finance.yahoo.com/quote/PFE/"
+    },
+    {
+      "symbol": "PLNT",
+      "action": "BUY",
+      "current_position": 139.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "23.8% below entry",
+      "take_profit": "6.8% above entry",
+      "position_size": "4.2% of portfolio",
+      "trailing_stop": "16.7% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PLNT",
+      "yahoo_url": "https://finance.yahoo.com/quote/PLNT/"
+    },
+    {
+      "symbol": "ISRG",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.3% below entry",
+      "take_profit": "6.9% above entry",
+      "position_size": "4.1% of portfolio",
+      "trailing_stop": "17.0% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ISRG",
+      "yahoo_url": "https://finance.yahoo.com/quote/ISRG/"
+    },
+    {
+      "symbol": "AMGN",
+      "action": "BUY",
+      "current_position": 47.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.2% below entry",
+      "take_profit": "5.8% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "14.2% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMGN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMGN/"
+    },
+    {
+      "symbol": "LLY",
+      "action": "BUY",
+      "current_position": 14.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.9% below entry",
+      "take_profit": "8.3% above entry",
+      "position_size": "3.4% of portfolio",
+      "trailing_stop": "20.2% trailing after 3.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LLY",
+      "yahoo_url": "https://finance.yahoo.com/quote/LLY/"
+    },
+    {
+      "symbol": "MRK",
+      "action": "BUY",
+      "current_position": 144.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.7% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "4.8% of portfolio",
+      "trailing_stop": "14.5% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MRK",
+      "yahoo_url": "https://finance.yahoo.com/quote/MRK/"
+    },
+    {
+      "symbol": "ABBV",
+      "action": "BUY",
+      "current_position": 67.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.0% below entry",
+      "take_profit": "5.7% above entry",
+      "position_size": "5.0% of portfolio",
+      "trailing_stop": "14.0% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ABBV",
+      "yahoo_url": "https://finance.yahoo.com/quote/ABBV/"
+    },
+    {
+      "symbol": "VKTX",
+      "action": "BUY",
+      "current_position": 418.0,
+      "annual_volatility": "81%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.5% above entry",
+      "position_size": "1.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VKTX",
+      "yahoo_url": "https://finance.yahoo.com/quote/VKTX/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "34.16%",
+    "sharpe_ratio": "0.44",
+    "max_drawdown": "-18.06%",
+    "win_rate": "49.53%",
+    "alpha": "-12.80%"
+  }
+}

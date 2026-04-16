@@ -1,0 +1,93 @@
+{
+  "strategy_name": "presidential_cycle",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:05:50.927061",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "15.9%",
+    "stop_loss": "11.2%",
+    "take_profit_target": "12.5%",
+    "max_drawdown_tolerance": "11.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on policy announcement day or day after. Backlogs are locked \u2014 dips are gifts.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 60% immediately on catalyst, add 40% if pullback within 2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "QQQ",
+      "action": "BUY",
+      "current_position": 79.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.2% below entry",
+      "take_profit": "11.4% above entry",
+      "position_size": "17.5% of portfolio",
+      "trailing_stop": "7.1% trailing after 4.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=QQQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/QQQ/"
+    },
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "current_position": 86.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.0% below entry",
+      "take_profit": "9.0% above entry",
+      "position_size": "22.2% of portfolio",
+      "trailing_stop": "5.6% trailing after 3.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPY/"
+    },
+    {
+      "symbol": "TLT",
+      "action": "BUY",
+      "current_position": 222.0,
+      "annual_volatility": "13%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "5.9% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "30.2% of portfolio",
+      "trailing_stop": "4.1% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TLT",
+      "yahoo_url": "https://finance.yahoo.com/quote/TLT/"
+    },
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 50.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.8% below entry",
+      "take_profit": "12.0% above entry",
+      "position_size": "16.6% of portfolio",
+      "trailing_stop": "7.5% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "IWM",
+      "action": "BUY",
+      "current_position": 80.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.5% below entry",
+      "take_profit": "11.7% above entry",
+      "position_size": "17.0% of portfolio",
+      "trailing_stop": "7.3% trailing after 4.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=IWM",
+      "yahoo_url": "https://finance.yahoo.com/quote/IWM/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "94.99%",
+    "sharpe_ratio": "1.56",
+    "max_drawdown": "-11.19%",
+    "win_rate": "56.86%",
+    "alpha": "1.90%"
+  }
+}

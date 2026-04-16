@@ -1,0 +1,80 @@
+{
+  "strategy_name": "billboard_monopoly",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:59.924370",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.3%",
+    "stop_loss": "22.3%",
+    "take_profit_target": "5.7%",
+    "max_drawdown_tolerance": "22.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "OUT",
+      "action": "BUY",
+      "current_position": 875.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "32.5% below entry",
+      "take_profit": "8.3% above entry",
+      "position_size": "4.4% of portfolio",
+      "trailing_stop": "22.8% trailing after 3.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=OUT",
+      "yahoo_url": "https://finance.yahoo.com/quote/OUT/"
+    },
+    {
+      "symbol": "CCO",
+      "action": "BUY",
+      "current_position": 9958.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "12.7% above entry",
+      "position_size": "2.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CCO",
+      "yahoo_url": "https://finance.yahoo.com/quote/CCO/"
+    },
+    {
+      "symbol": "MSGS",
+      "action": "BUY",
+      "current_position": 88.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.4% below entry",
+      "take_profit": "6.2% above entry",
+      "position_size": "5.8% of portfolio",
+      "trailing_stop": "17.1% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MSGS",
+      "yahoo_url": "https://finance.yahoo.com/quote/MSGS/"
+    },
+    {
+      "symbol": "LAMR",
+      "action": "BUY",
+      "current_position": 154.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "22.4% below entry",
+      "take_profit": "5.7% above entry",
+      "position_size": "6.3% of portfolio",
+      "trailing_stop": "15.7% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LAMR",
+      "yahoo_url": "https://finance.yahoo.com/quote/LAMR/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "38.09%",
+    "sharpe_ratio": "0.47",
+    "max_drawdown": "-22.29%",
+    "win_rate": "56.32%",
+    "alpha": "-11.73%"
+  }
+}

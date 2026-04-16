@@ -1,0 +1,54 @@
+{
+  "strategy_name": "news_media_monopoly",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:11.082580",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "8.1%",
+    "stop_loss": "17.9%",
+    "take_profit_target": "6.4%",
+    "max_drawdown_tolerance": "17.9%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "CMCSA",
+      "action": "BUY",
+      "current_position": 787.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.7% below entry",
+      "take_profit": "7.1% above entry",
+      "position_size": "7.4% of portfolio",
+      "trailing_stop": "13.8% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CMCSA",
+      "yahoo_url": "https://finance.yahoo.com/quote/CMCSA/"
+    },
+    {
+      "symbol": "NWSA",
+      "action": "BUY",
+      "current_position": 824.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.9% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "12.5% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NWSA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NWSA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "43.57%",
+    "sharpe_ratio": "0.64",
+    "max_drawdown": "-17.91%",
+    "win_rate": "51.40%",
+    "alpha": "-10.27%"
+  }
+}

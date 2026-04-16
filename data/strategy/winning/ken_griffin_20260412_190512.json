@@ -1,0 +1,106 @@
+{
+  "strategy_name": "ken_griffin",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:05:12.485962",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.7%",
+    "stop_loss": "16.4%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "16.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AVGO",
+      "action": "BUY",
+      "current_position": 93.0,
+      "annual_volatility": "55%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "37.9% below entry",
+      "take_profit": "34.6% above entry",
+      "position_size": "5.5% of portfolio",
+      "trailing_stop": "26.5% trailing after 13.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AVGO",
+      "yahoo_url": "https://finance.yahoo.com/quote/AVGO/"
+    },
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "current_position": 53.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.8% below entry",
+      "take_profit": "10.7% above entry",
+      "position_size": "17.7% of portfolio",
+      "trailing_stop": "8.2% trailing after 4.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPY/"
+    },
+    {
+      "symbol": "QQQ",
+      "action": "BUY",
+      "current_position": 58.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.9% below entry",
+      "take_profit": "13.6% above entry",
+      "position_size": "13.9% of portfolio",
+      "trailing_stop": "10.5% trailing after 5.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=QQQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/QQQ/"
+    },
+    {
+      "symbol": "GOOGL",
+      "action": "BUY",
+      "current_position": 113.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.6% below entry",
+      "take_profit": "18.8% above entry",
+      "position_size": "10.1% of portfolio",
+      "trailing_stop": "14.4% trailing after 7.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GOOGL",
+      "yahoo_url": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "current_position": 126.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.7% below entry",
+      "take_profit": "18.0% above entry",
+      "position_size": "10.5% of portfolio",
+      "trailing_stop": "13.8% trailing after 7.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AAPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/AAPL/"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "BUY",
+      "current_position": 102.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "22.7% below entry",
+      "take_profit": "20.7% above entry",
+      "position_size": "9.2% of portfolio",
+      "trailing_stop": "15.9% trailing after 8.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMZN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMZN/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "118.79%",
+    "sharpe_ratio": "1.34",
+    "max_drawdown": "-16.41%",
+    "win_rate": "54.06%",
+    "alpha": "6.81%"
+  }
+}

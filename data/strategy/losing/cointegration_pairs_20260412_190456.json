@@ -1,0 +1,54 @@
+{
+  "strategy_name": "cointegration_pairs",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:04:56.407993",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "10.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "6.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Enter when Z-score exceeds 2.0. Exit when Z returns to 0.",
+    "timing": "WAIT FOR SIGNAL: Only enter when price spread between paired stocks reaches extreme levels. Exit when spread normalizes.",
+    "scaling": "Full position at entry. No scaling \u2014 it's a convergence trade."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "PG",
+      "action": "BUY",
+      "current_position": 90.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.7% below entry",
+      "take_profit": "3.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "5.4% trailing after 1.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PG",
+      "yahoo_url": "https://finance.yahoo.com/quote/PG/"
+    },
+    {
+      "symbol": "UPS",
+      "action": "BUY",
+      "current_position": 129.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "12.6% below entry",
+      "take_profit": "6.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "8.8% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UPS",
+      "yahoo_url": "https://finance.yahoo.com/quote/UPS/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "6.21%",
+    "sharpe_ratio": "-0.47",
+    "max_drawdown": "-6.16%",
+    "win_rate": "48.60%",
+    "alpha": "-21.09%"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "strategy_name": "tax_harvest_rotation",
+  "is_winning": true,
+  "generated_at": "2026-04-14T07:24:41.204799",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "21.9%",
+    "stop_loss": "18.5%",
+    "take_profit_target": "23.0%",
+    "max_drawdown_tolerance": "18.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "current_position": 137.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.3% below entry",
+      "take_profit": "16.5% above entry",
+      "position_size": "30.5% of portfolio",
+      "trailing_stop": "9.3% trailing after 6.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SPY/"
+    },
+    {
+      "symbol": "VTI",
+      "action": "BUY",
+      "current_position": 279.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.4% below entry",
+      "take_profit": "16.6% above entry",
+      "position_size": "30.3% of portfolio",
+      "trailing_stop": "9.4% trailing after 6.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VTI",
+      "yahoo_url": "https://finance.yahoo.com/quote/VTI/"
+    },
+    {
+      "symbol": "QQQ",
+      "action": "BUY",
+      "current_position": 152.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "16.9% below entry",
+      "take_profit": "21.0% above entry",
+      "position_size": "24.0% of portfolio",
+      "trailing_stop": "11.8% trailing after 8.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=QQQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/QQQ/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "210.81%",
+    "sharpe_ratio": "0.93",
+    "max_drawdown": "-18.55%",
+    "win_rate": "56.81%",
+    "alpha": "-19.37%"
+  }
+}

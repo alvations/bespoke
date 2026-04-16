@@ -1,0 +1,54 @@
+{
+  "strategy_name": "cross_asset_carry",
+  "is_winning": true,
+  "generated_at": "2026-04-14T08:01:25.123522",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "8.8%",
+    "stop_loss": "7.6%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "7.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "EMB",
+      "action": "BUY",
+      "current_position": 558.0,
+      "annual_volatility": "7%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "3.8% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "17.6% of portfolio",
+      "trailing_stop": "2.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EMB",
+      "yahoo_url": "https://finance.yahoo.com/quote/EMB/"
+    },
+    {
+      "symbol": "HYG",
+      "action": "BUY",
+      "current_position": 668.0,
+      "annual_volatility": "5%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "3.8% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "17.6% of portfolio",
+      "trailing_stop": "2.6% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HYG",
+      "yahoo_url": "https://finance.yahoo.com/quote/HYG/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "17.83%",
+    "sharpe_ratio": "0.31",
+    "max_drawdown": "-7.55%",
+    "win_rate": "54.86%",
+    "alpha": "-60.73%"
+  }
+}

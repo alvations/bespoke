@@ -1,0 +1,93 @@
+{
+  "strategy_name": "ai_adopters_not_builders",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:27.698841",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "11.1%",
+    "stop_loss": "11.8%",
+    "take_profit_target": "10.0%",
+    "max_drawdown_tolerance": "13.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy when NVDA above SMA50 (demand signal). Don't buy if NVDA below SMA200.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 40% initial, add on NVDA pullback to SMA50, full position on confirmation."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "WMT",
+      "action": "BUY",
+      "current_position": 96.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.6% below entry",
+      "take_profit": "9.8% above entry",
+      "position_size": "11.3% of portfolio",
+      "trailing_stop": "8.1% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/WMT/"
+    },
+    {
+      "symbol": "GE",
+      "action": "BUY",
+      "current_position": 74.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "15.8% below entry",
+      "take_profit": "13.5% above entry",
+      "position_size": "8.3% of portfolio",
+      "trailing_stop": "11.1% trailing after 5.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GE",
+      "yahoo_url": "https://finance.yahoo.com/quote/GE/"
+    },
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 70.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.6% below entry",
+      "take_profit": "10.7% above entry",
+      "position_size": "10.4% of portfolio",
+      "trailing_stop": "8.8% trailing after 4.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "CAT",
+      "action": "BUY",
+      "current_position": 38.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "15.7% below entry",
+      "take_profit": "13.3% above entry",
+      "position_size": "8.4% of portfolio",
+      "trailing_stop": "11.0% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CAT",
+      "yahoo_url": "https://finance.yahoo.com/quote/CAT/"
+    },
+    {
+      "symbol": "UPS",
+      "action": "BUY",
+      "current_position": 228.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "14.8% below entry",
+      "take_profit": "12.6% above entry",
+      "position_size": "8.8% of portfolio",
+      "trailing_stop": "10.4% trailing after 5.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UPS",
+      "yahoo_url": "https://finance.yahoo.com/quote/UPS/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "46.02%",
+    "sharpe_ratio": "0.88",
+    "max_drawdown": "-13.06%",
+    "win_rate": "54.86%",
+    "alpha": "-9.63%"
+  }
+}

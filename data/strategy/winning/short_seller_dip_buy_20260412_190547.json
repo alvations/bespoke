@@ -1,0 +1,41 @@
+{
+  "strategy_name": "short_seller_dip_buy",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:05:47.364497",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.3%",
+    "stop_loss": "11.4%",
+    "take_profit_target": "10.3%",
+    "max_drawdown_tolerance": "11.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "META",
+      "action": "BUY",
+      "current_position": 40.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "17.3% below entry",
+      "take_profit": "15.7% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "12.1% trailing after 6.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=META",
+      "yahoo_url": "https://finance.yahoo.com/quote/META/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "75.40%",
+    "sharpe_ratio": "1.05",
+    "max_drawdown": "-11.38%",
+    "win_rate": "52.60%",
+    "alpha": "-2.45%"
+  }
+}

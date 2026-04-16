@@ -1,0 +1,119 @@
+{
+  "strategy_name": "korean_chaebols",
+  "is_winning": false,
+  "generated_at": "2026-04-08T22:31:52.895196",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "27.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "CPNG",
+      "action": "BUY",
+      "current_position": 573.0,
+      "annual_volatility": "37%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "39.3% below entry",
+      "take_profit": "7.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "27.5% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CPNG",
+      "yahoo_url": "https://finance.yahoo.com/quote/CPNG/"
+    },
+    {
+      "symbol": "PKX",
+      "action": "BUY",
+      "current_position": 303.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "8.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PKX",
+      "yahoo_url": "https://finance.yahoo.com/quote/PKX/"
+    },
+    {
+      "symbol": "KB",
+      "action": "BUY",
+      "current_position": 230.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "38.3% below entry",
+      "take_profit": "7.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "26.8% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=KB",
+      "yahoo_url": "https://finance.yahoo.com/quote/KB/"
+    },
+    {
+      "symbol": "SHG",
+      "action": "BUY",
+      "current_position": 400.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.8% below entry",
+      "take_profit": "6.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.7% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHG",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHG/"
+    },
+    {
+      "symbol": "EWY",
+      "action": "BUY",
+      "current_position": 254.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.2% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.3% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWY",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWY/"
+    },
+    {
+      "symbol": "SKM",
+      "action": "BUY",
+      "current_position": 621.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "29.2% below entry",
+      "take_profit": "5.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "20.4% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SKM",
+      "yahoo_url": "https://finance.yahoo.com/quote/SKM/"
+    },
+    {
+      "symbol": "LPL",
+      "action": "BUY",
+      "current_position": 4097.0,
+      "annual_volatility": "44%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LPL",
+      "yahoo_url": "https://finance.yahoo.com/quote/LPL/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-0.99%",
+    "sharpe_ratio": "-0.12",
+    "max_drawdown": "-27.44%",
+    "win_rate": "49.34%",
+    "alpha": "-8.99%"
+  }
+}

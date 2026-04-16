@@ -1,0 +1,67 @@
+{
+  "strategy_name": "pawn_counter_cyclical",
+  "is_winning": true,
+  "generated_at": "2026-04-13T19:46:16.833583",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "11.3%",
+    "stop_loss": "8.5%",
+    "take_profit_target": "8.2%",
+    "max_drawdown_tolerance": "8.5%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "FCFS",
+      "action": "BUY",
+      "current_position": 136.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.5% below entry",
+      "take_profit": "9.2% above entry",
+      "position_size": "10.1% of portfolio",
+      "trailing_stop": "6.7% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FCFS",
+      "yahoo_url": "https://finance.yahoo.com/quote/FCFS/"
+    },
+    {
+      "symbol": "EZPW",
+      "action": "BUY",
+      "current_position": 1116.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "11.0% below entry",
+      "take_profit": "10.6% above entry",
+      "position_size": "8.8% of portfolio",
+      "trailing_stop": "7.7% trailing after 4.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EZPW",
+      "yahoo_url": "https://finance.yahoo.com/quote/EZPW/"
+    },
+    {
+      "symbol": "PRDO",
+      "action": "BUY",
+      "current_position": 814.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "12.5% below entry",
+      "take_profit": "12.1% above entry",
+      "position_size": "7.7% of portfolio",
+      "trailing_stop": "8.7% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PRDO",
+      "yahoo_url": "https://finance.yahoo.com/quote/PRDO/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "57.89%",
+    "sharpe_ratio": "1.00",
+    "max_drawdown": "-8.53%",
+    "win_rate": "52.09%",
+    "alpha": "-48.95%"
+  }
+}

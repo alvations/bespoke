@@ -1,0 +1,145 @@
+{
+  "strategy_name": "defense_aerospace",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:19.219101",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.9%",
+    "stop_loss": "20.0%",
+    "take_profit_target": "14.2%",
+    "max_drawdown_tolerance": "49.5%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on policy announcement day or day after. Backlogs are locked \u2014 dips are gifts.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 60% immediately on catalyst, add 40% if pullback within 2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "LUNR",
+      "action": "BUY",
+      "current_position": 2053.0,
+      "annual_volatility": "116%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "42.6% above entry",
+      "position_size": "4.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 17.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LUNR",
+      "yahoo_url": "https://finance.yahoo.com/quote/LUNR/"
+    },
+    {
+      "symbol": "BA",
+      "action": "BUY",
+      "current_position": 102.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "29.8% below entry",
+      "take_profit": "21.1% above entry",
+      "position_size": "8.6% of portfolio",
+      "trailing_stop": "20.8% trailing after 8.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BA",
+      "yahoo_url": "https://finance.yahoo.com/quote/BA/"
+    },
+    {
+      "symbol": "LMT",
+      "action": "BUY",
+      "current_position": 44.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.1% below entry",
+      "take_profit": "14.9% above entry",
+      "position_size": "12.2% of portfolio",
+      "trailing_stop": "14.7% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/LMT/"
+    },
+    {
+      "symbol": "NOC",
+      "action": "BUY",
+      "current_position": 35.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "21.5% below entry",
+      "take_profit": "15.3% above entry",
+      "position_size": "12.0% of portfolio",
+      "trailing_stop": "15.1% trailing after 6.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NOC",
+      "yahoo_url": "https://finance.yahoo.com/quote/NOC/"
+    },
+    {
+      "symbol": "FTNT",
+      "action": "BUY",
+      "current_position": 232.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.4% below entry",
+      "take_profit": "24.4% above entry",
+      "position_size": "7.5% of portfolio",
+      "trailing_stop": "24.1% trailing after 9.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FTNT",
+      "yahoo_url": "https://finance.yahoo.com/quote/FTNT/"
+    },
+    {
+      "symbol": "ZS",
+      "action": "BUY",
+      "current_position": 78.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "37.6% below entry",
+      "take_profit": "26.6% above entry",
+      "position_size": "6.8% of portfolio",
+      "trailing_stop": "26.3% trailing after 10.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ZS",
+      "yahoo_url": "https://finance.yahoo.com/quote/ZS/"
+    },
+    {
+      "symbol": "PANW",
+      "action": "BUY",
+      "current_position": 101.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "29.8% below entry",
+      "take_profit": "21.1% above entry",
+      "position_size": "8.6% of portfolio",
+      "trailing_stop": "20.8% trailing after 8.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PANW",
+      "yahoo_url": "https://finance.yahoo.com/quote/PANW/"
+    },
+    {
+      "symbol": "LHX",
+      "action": "BUY",
+      "current_position": 70.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.4% below entry",
+      "take_profit": "13.8% above entry",
+      "position_size": "13.2% of portfolio",
+      "trailing_stop": "13.6% trailing after 5.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LHX",
+      "yahoo_url": "https://finance.yahoo.com/quote/LHX/"
+    },
+    {
+      "symbol": "ITA",
+      "action": "BUY",
+      "current_position": 95.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.0% below entry",
+      "take_profit": "12.7% above entry",
+      "position_size": "14.3% of portfolio",
+      "trailing_stop": "12.6% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ITA",
+      "yahoo_url": "https://finance.yahoo.com/quote/ITA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "111.01%",
+    "sharpe_ratio": "0.70",
+    "max_drawdown": "-49.46%",
+    "win_rate": "54.06%",
+    "alpha": "5.24%"
+  }
+}

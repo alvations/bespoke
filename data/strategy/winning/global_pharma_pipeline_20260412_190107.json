@@ -1,0 +1,119 @@
+{
+  "strategy_name": "global_pharma_pipeline",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:06.280682",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "7.1%",
+    "stop_loss": "17.3%",
+    "take_profit_target": "5.6%",
+    "max_drawdown_tolerance": "17.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "RHHBY",
+      "action": "BUY",
+      "current_position": 358.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.0% below entry",
+      "take_profit": "6.1% above entry",
+      "position_size": "6.5% of portfolio",
+      "trailing_stop": "13.3% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=RHHBY",
+      "yahoo_url": "https://finance.yahoo.com/quote/RHHBY/"
+    },
+    {
+      "symbol": "BAYRY",
+      "action": "BUY",
+      "current_position": 1880.0,
+      "annual_volatility": "39%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.7% below entry",
+      "take_profit": "9.2% above entry",
+      "position_size": "4.3% of portfolio",
+      "trailing_stop": "20.1% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BAYRY",
+      "yahoo_url": "https://finance.yahoo.com/quote/BAYRY/"
+    },
+    {
+      "symbol": "NVS",
+      "action": "BUY",
+      "current_position": 132.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.7% below entry",
+      "take_profit": "4.7% above entry",
+      "position_size": "8.4% of portfolio",
+      "trailing_stop": "10.3% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NVS",
+      "yahoo_url": "https://finance.yahoo.com/quote/NVS/"
+    },
+    {
+      "symbol": "TAK",
+      "action": "BUY",
+      "current_position": 1140.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.4% below entry",
+      "take_profit": "4.6% above entry",
+      "position_size": "8.6% of portfolio",
+      "trailing_stop": "10.1% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TAK",
+      "yahoo_url": "https://finance.yahoo.com/quote/TAK/"
+    },
+    {
+      "symbol": "AZN",
+      "action": "BUY",
+      "current_position": 92.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.9% below entry",
+      "take_profit": "5.8% above entry",
+      "position_size": "6.9% of portfolio",
+      "trailing_stop": "12.5% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AZN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AZN/"
+    },
+    {
+      "symbol": "MRK",
+      "action": "BUY",
+      "current_position": 165.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.9% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "6.2% of portfolio",
+      "trailing_stop": "13.9% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MRK",
+      "yahoo_url": "https://finance.yahoo.com/quote/MRK/"
+    },
+    {
+      "symbol": "LLY",
+      "action": "BUY",
+      "current_position": 16.0,
+      "annual_volatility": "38%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "27.8% below entry",
+      "take_profit": "8.9% above entry",
+      "position_size": "4.4% of portfolio",
+      "trailing_stop": "19.4% trailing after 3.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LLY",
+      "yahoo_url": "https://finance.yahoo.com/quote/LLY/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "37.23%",
+    "sharpe_ratio": "0.55",
+    "max_drawdown": "-17.34%",
+    "win_rate": "52.33%",
+    "alpha": "-11.96%"
+  }
+}

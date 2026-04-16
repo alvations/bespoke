@@ -1,0 +1,158 @@
+{
+  "strategy_name": "infrastructure_boom",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:28.662404",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.7%",
+    "stop_loss": "12.6%",
+    "take_profit_target": "5.5%",
+    "max_drawdown_tolerance": "12.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "DUK",
+      "action": "BUY",
+      "current_position": 103.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.7% below entry",
+      "take_profit": "3.8% above entry",
+      "position_size": "9.7% of portfolio",
+      "trailing_stop": "6.1% trailing after 1.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DUK",
+      "yahoo_url": "https://finance.yahoo.com/quote/DUK/"
+    },
+    {
+      "symbol": "EQIX",
+      "action": "BUY",
+      "current_position": 17.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.6% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "6.2% of portfolio",
+      "trailing_stop": "9.5% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EQIX",
+      "yahoo_url": "https://finance.yahoo.com/quote/EQIX/"
+    },
+    {
+      "symbol": "TMUS",
+      "action": "BUY",
+      "current_position": 60.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.5% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "6.3% of portfolio",
+      "trailing_stop": "9.4% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TMUS",
+      "yahoo_url": "https://finance.yahoo.com/quote/TMUS/"
+    },
+    {
+      "symbol": "VZ",
+      "action": "BUY",
+      "current_position": 308.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.9% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "7.1% of portfolio",
+      "trailing_stop": "8.3% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VZ",
+      "yahoo_url": "https://finance.yahoo.com/quote/VZ/"
+    },
+    {
+      "symbol": "AMT",
+      "action": "BUY",
+      "current_position": 71.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.5% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "6.2% of portfolio",
+      "trailing_stop": "9.5% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMT/"
+    },
+    {
+      "symbol": "CCI",
+      "action": "BUY",
+      "current_position": 143.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.9% below entry",
+      "take_profit": "6.1% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "9.7% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CCI",
+      "yahoo_url": "https://finance.yahoo.com/quote/CCI/"
+    },
+    {
+      "symbol": "DE",
+      "action": "BUY",
+      "current_position": 27.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "15.2% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "5.5% of portfolio",
+      "trailing_stop": "10.7% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DE",
+      "yahoo_url": "https://finance.yahoo.com/quote/DE/"
+    },
+    {
+      "symbol": "SO",
+      "action": "BUY",
+      "current_position": 140.0,
+      "annual_volatility": "17%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.2% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "9.2% of portfolio",
+      "trailing_stop": "6.4% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SO",
+      "yahoo_url": "https://finance.yahoo.com/quote/SO/"
+    },
+    {
+      "symbol": "T",
+      "action": "BUY",
+      "current_position": 484.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.9% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "7.1% of portfolio",
+      "trailing_stop": "8.3% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=T",
+      "yahoo_url": "https://finance.yahoo.com/quote/T/"
+    },
+    {
+      "symbol": "DLR",
+      "action": "BUY",
+      "current_position": 80.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.7% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "9.6% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=DLR",
+      "yahoo_url": "https://finance.yahoo.com/quote/DLR/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "36.59%",
+    "sharpe_ratio": "0.55",
+    "max_drawdown": "-12.64%",
+    "win_rate": "50.87%",
+    "alpha": "-12.14%"
+  }
+}

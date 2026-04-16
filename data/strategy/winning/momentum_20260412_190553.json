@@ -1,0 +1,93 @@
+{
+  "strategy_name": "momentum",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:05:52.924944",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "12.5%",
+    "stop_loss": "18.0%",
+    "take_profit_target": "24.5%",
+    "max_drawdown_tolerance": "29.8%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on RSI pullback to 40-50 in confirmed uptrend. Never chase.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 50% initial, add 25% on first pullback, final 25% on trend confirmation."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "TSLA",
+      "action": "BUY",
+      "current_position": 110.0,
+      "annual_volatility": "62%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "63.9% above entry",
+      "position_size": "4.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 25.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TSLA",
+      "yahoo_url": "https://finance.yahoo.com/quote/TSLA/"
+    },
+    {
+      "symbol": "PLTR",
+      "action": "BUY",
+      "current_position": 276.0,
+      "annual_volatility": "64%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "65.6% above entry",
+      "position_size": "4.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 26.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PLTR",
+      "yahoo_url": "https://finance.yahoo.com/quote/PLTR/"
+    },
+    {
+      "symbol": "CRM",
+      "action": "BUY",
+      "current_position": 191.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "25.3% below entry",
+      "take_profit": "34.3% above entry",
+      "position_size": "8.9% of portfolio",
+      "trailing_stop": "17.7% trailing after 13.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CRM",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRM/"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "BUY",
+      "current_position": 270.0,
+      "annual_volatility": "49%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "36.7% below entry",
+      "take_profit": "50.0% above entry",
+      "position_size": "6.1% of portfolio",
+      "trailing_stop": "25.7% trailing after 20.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NVDA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "BUY",
+      "current_position": 219.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.9% below entry",
+      "take_profit": "33.8% above entry",
+      "position_size": "9.0% of portfolio",
+      "trailing_stop": "17.4% trailing after 13.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMZN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMZN/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "178.11%",
+    "sharpe_ratio": "1.42",
+    "max_drawdown": "-29.82%",
+    "win_rate": "51.93%",
+    "alpha": "17.66%"
+  }
+}

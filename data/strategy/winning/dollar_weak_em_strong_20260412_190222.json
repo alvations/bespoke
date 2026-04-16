@@ -1,0 +1,54 @@
+{
+  "strategy_name": "dollar_weak_em_strong",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:22.585770",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "14.1%",
+    "stop_loss": "11.7%",
+    "take_profit_target": "8.0%",
+    "max_drawdown_tolerance": "13.0%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Enter immediately when trigger fires. Speed matters more than price.",
+    "timing": "WAIT FOR SIGNAL: Only enter when US dollar is weakening. Long emerging markets + gold. Exit when dollar strengthens.",
+    "scaling": "Full position at trigger. No scaling \u2014 the signal is binary."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 34.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.3% below entry",
+      "take_profit": "7.7% above entry",
+      "position_size": "14.7% of portfolio",
+      "trailing_stop": "7.9% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "EEM",
+      "action": "BUY",
+      "current_position": 250.0,
+      "annual_volatility": "19%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.4% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "17.6% of portfolio",
+      "trailing_stop": "6.6% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EEM",
+      "yahoo_url": "https://finance.yahoo.com/quote/EEM/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "36.75%",
+    "sharpe_ratio": "0.85",
+    "max_drawdown": "-13.03%",
+    "win_rate": "57.52%",
+    "alpha": "-12.09%"
+  }
+}

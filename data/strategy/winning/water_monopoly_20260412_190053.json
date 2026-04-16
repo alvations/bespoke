@@ -1,0 +1,106 @@
+{
+  "strategy_name": "water_monopoly",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:52.491158",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "4.1%",
+    "stop_loss": "15.7%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "15.7%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "ECL",
+      "action": "BUY",
+      "current_position": 60.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "13.4% below entry",
+      "take_profit": "4.3% above entry",
+      "position_size": "4.8% of portfolio",
+      "trailing_stop": "9.4% trailing after 1.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ECL",
+      "yahoo_url": "https://finance.yahoo.com/quote/ECL/"
+    },
+    {
+      "symbol": "WTS",
+      "action": "BUY",
+      "current_position": 60.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.6% below entry",
+      "take_profit": "5.6% above entry",
+      "position_size": "3.7% of portfolio",
+      "trailing_stop": "12.4% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WTS",
+      "yahoo_url": "https://finance.yahoo.com/quote/WTS/"
+    },
+    {
+      "symbol": "WTRG",
+      "action": "BUY",
+      "current_position": 420.0,
+      "annual_volatility": "21%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.1% below entry",
+      "take_profit": "4.5% above entry",
+      "position_size": "4.6% of portfolio",
+      "trailing_stop": "9.9% trailing after 1.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WTRG",
+      "yahoo_url": "https://finance.yahoo.com/quote/WTRG/"
+    },
+    {
+      "symbol": "XYL",
+      "action": "BUY",
+      "current_position": 130.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "16.3% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "11.4% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=XYL",
+      "yahoo_url": "https://finance.yahoo.com/quote/XYL/"
+    },
+    {
+      "symbol": "PNR",
+      "action": "BUY",
+      "current_position": 173.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.7% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "13.1% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PNR",
+      "yahoo_url": "https://finance.yahoo.com/quote/PNR/"
+    },
+    {
+      "symbol": "FELE",
+      "action": "BUY",
+      "current_position": 174.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.3% below entry",
+      "take_profit": "5.9% above entry",
+      "position_size": "3.5% of portfolio",
+      "trailing_stop": "12.8% trailing after 2.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FELE",
+      "yahoo_url": "https://finance.yahoo.com/quote/FELE/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "19.63%",
+    "sharpe_ratio": "0.22",
+    "max_drawdown": "-15.67%",
+    "win_rate": "51.93%",
+    "alpha": "-16.95%"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "strategy_name": "shipping_freight_cycle",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:03:19.173997",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.7%",
+    "stop_loss": "30.3%",
+    "take_profit_target": "15.0%",
+    "max_drawdown_tolerance": "20.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on golden cross (SMA50 > SMA200). These are CYCLE trades \u2014 timing matters.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 30% at signal, add 30% on confirmation, hold 40% for cycle peak."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "SEA",
+      "action": "BUY",
+      "current_position": 1020.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "25.6% below entry",
+      "take_profit": "12.6% above entry",
+      "position_size": "6.8% of portfolio",
+      "trailing_stop": "17.9% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SEA",
+      "yahoo_url": "https://finance.yahoo.com/quote/SEA/"
+    },
+    {
+      "symbol": "CHRW",
+      "action": "BUY",
+      "current_position": 90.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "22.6% above entry",
+      "position_size": "3.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CHRW",
+      "yahoo_url": "https://finance.yahoo.com/quote/CHRW/"
+    },
+    {
+      "symbol": "EXPD",
+      "action": "BUY",
+      "current_position": 97.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "35.5% below entry",
+      "take_profit": "17.5% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "24.8% trailing after 7.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EXPD",
+      "yahoo_url": "https://finance.yahoo.com/quote/EXPD/"
+    },
+    {
+      "symbol": "GNK",
+      "action": "BUY",
+      "current_position": 801.0,
+      "annual_volatility": "34%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "21.6% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GNK",
+      "yahoo_url": "https://finance.yahoo.com/quote/GNK/"
+    },
+    {
+      "symbol": "ZIM",
+      "action": "BUY",
+      "current_position": 716.0,
+      "annual_volatility": "68%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "43.0% above entry",
+      "position_size": "2.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 17.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ZIM",
+      "yahoo_url": "https://finance.yahoo.com/quote/ZIM/"
+    },
+    {
+      "symbol": "EGLE",
+      "action": "BUY",
+      "current_position": 501.0,
+      "annual_volatility": "12%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "15.2% below entry",
+      "take_profit": "7.5% above entry",
+      "position_size": "11.4% of portfolio",
+      "trailing_stop": "10.6% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EGLE",
+      "yahoo_url": "https://finance.yahoo.com/quote/EGLE/"
+    },
+    {
+      "symbol": "SBLK",
+      "action": "BUY",
+      "current_position": 757.0,
+      "annual_volatility": "34%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "21.3% above entry",
+      "position_size": "4.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 8.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SBLK",
+      "yahoo_url": "https://finance.yahoo.com/quote/SBLK/"
+    },
+    {
+      "symbol": "MATX",
+      "action": "BUY",
+      "current_position": 118.0,
+      "annual_volatility": "41%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "25.5% above entry",
+      "position_size": "3.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 10.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MATX",
+      "yahoo_url": "https://finance.yahoo.com/quote/MATX/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "29.05%",
+    "sharpe_ratio": "0.39",
+    "max_drawdown": "-20.23%",
+    "win_rate": "51.13%",
+    "alpha": "-14.23%"
+  }
+}

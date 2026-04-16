@@ -1,0 +1,145 @@
+{
+  "strategy_name": "mag7_hidden_suppliers",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:01:18.503620",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "6.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "6.8%",
+    "max_drawdown_tolerance": "33.2%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "AJINY",
+      "action": "BUY",
+      "current_position": 821.0,
+      "annual_volatility": "34%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "35.7% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "4.2% of portfolio",
+      "trailing_stop": "25.0% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AJINY",
+      "yahoo_url": "https://finance.yahoo.com/quote/AJINY/"
+    },
+    {
+      "symbol": "ENTG",
+      "action": "BUY",
+      "current_position": 202.0,
+      "annual_volatility": "57%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "16.1% above entry",
+      "position_size": "2.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ENTG",
+      "yahoo_url": "https://finance.yahoo.com/quote/ENTG/"
+    },
+    {
+      "symbol": "ASML",
+      "action": "BUY",
+      "current_position": 16.0,
+      "annual_volatility": "45%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "12.7% above entry",
+      "position_size": "3.2% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ASML",
+      "yahoo_url": "https://finance.yahoo.com/quote/ASML/"
+    },
+    {
+      "symbol": "LSRCY",
+      "action": "BUY",
+      "current_position": 460.0,
+      "annual_volatility": "57%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "16.3% above entry",
+      "position_size": "2.5% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=LSRCY",
+      "yahoo_url": "https://finance.yahoo.com/quote/LSRCY/"
+    },
+    {
+      "symbol": "SHECY",
+      "action": "BUY",
+      "current_position": 752.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.6% below entry",
+      "take_profit": "9.4% above entry",
+      "position_size": "4.3% of portfolio",
+      "trailing_stop": "24.2% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHECY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHECY/"
+    },
+    {
+      "symbol": "GLW",
+      "action": "BUY",
+      "current_position": 163.0,
+      "annual_volatility": "42%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "11.9% above entry",
+      "position_size": "3.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLW",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLW/"
+    },
+    {
+      "symbol": "SUOPY",
+      "action": "BUY",
+      "current_position": 511.0,
+      "annual_volatility": "59%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "16.6% above entry",
+      "position_size": "2.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SUOPY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SUOPY/"
+    },
+    {
+      "symbol": "AMKR",
+      "action": "BUY",
+      "current_position": 289.0,
+      "annual_volatility": "60%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "17.1% above entry",
+      "position_size": "2.4% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMKR",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMKR/"
+    },
+    {
+      "symbol": "TOELY",
+      "action": "BUY",
+      "current_position": 161.0,
+      "annual_volatility": "52%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "14.8% above entry",
+      "position_size": "2.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TOELY",
+      "yahoo_url": "https://finance.yahoo.com/quote/TOELY/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "46.15%",
+    "sharpe_ratio": "0.53",
+    "max_drawdown": "-33.19%",
+    "win_rate": "52.20%",
+    "alpha": "-9.60%"
+  }
+}

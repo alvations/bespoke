@@ -1,0 +1,80 @@
+{
+  "strategy_name": "southeast_asia_growth",
+  "is_winning": true,
+  "generated_at": "2026-04-13T13:47:56.022778",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "5.2%",
+    "stop_loss": "12.1%",
+    "take_profit_target": "12.0%",
+    "max_drawdown_tolerance": "15.1%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy on RSI pullback to 40-50 in confirmed uptrend. Never chase.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter 50% initial, add 25% on first pullback, final 25% on trend confirmation."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "EWM",
+      "action": "BUY",
+      "current_position": 872.0,
+      "annual_volatility": "16%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.9% below entry",
+      "take_profit": "7.9% above entry",
+      "position_size": "7.9% of portfolio",
+      "trailing_stop": "5.5% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWM",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWM/"
+    },
+    {
+      "symbol": "THD",
+      "action": "BUY",
+      "current_position": 385.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.0% below entry",
+      "take_profit": "11.9% above entry",
+      "position_size": "5.2% of portfolio",
+      "trailing_stop": "8.4% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=THD",
+      "yahoo_url": "https://finance.yahoo.com/quote/THD/"
+    },
+    {
+      "symbol": "EIDO",
+      "action": "BUY",
+      "current_position": 1226.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "11.7% below entry",
+      "take_profit": "11.6% above entry",
+      "position_size": "5.4% of portfolio",
+      "trailing_stop": "8.2% trailing after 4.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EIDO",
+      "yahoo_url": "https://finance.yahoo.com/quote/EIDO/"
+    },
+    {
+      "symbol": "EPHE",
+      "action": "BUY",
+      "current_position": 911.0,
+      "annual_volatility": "19%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "9.7% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "6.4% of portfolio",
+      "trailing_stop": "6.8% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EPHE",
+      "yahoo_url": "https://finance.yahoo.com/quote/EPHE/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "15.34%",
+    "sharpe_ratio": "0.14",
+    "max_drawdown": "-15.07%",
+    "win_rate": "43.68%",
+    "alpha": "-18.24%"
+  }
+}

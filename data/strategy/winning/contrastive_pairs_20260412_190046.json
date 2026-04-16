@@ -1,0 +1,158 @@
+{
+  "strategy_name": "contrastive_pairs",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:00:45.136168",
+  "overall_assessment": "STRONG BUY \u2014 Excellent risk-adjusted returns with significant alpha. Deploy with confidence.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "11.8%",
+    "stop_loss": "10.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "25.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Enter when Z-score exceeds 2.0. Exit when Z returns to 0.",
+    "timing": "WAIT FOR SIGNAL: Only enter when price spread between paired stocks reaches extreme levels. Exit when spread normalizes.",
+    "scaling": "Full position at entry. No scaling \u2014 it's a convergence trade."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "WDC",
+      "action": "BUY",
+      "current_position": 94.0,
+      "annual_volatility": "58%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "24.2% below entry",
+      "take_profit": "12.1% above entry",
+      "position_size": "4.9% of portfolio",
+      "trailing_stop": "16.9% trailing after 4.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WDC",
+      "yahoo_url": "https://finance.yahoo.com/quote/WDC/"
+    },
+    {
+      "symbol": "NFLX",
+      "action": "BUY",
+      "current_position": 281.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "13.8% below entry",
+      "take_profit": "6.9% above entry",
+      "position_size": "8.6% of portfolio",
+      "trailing_stop": "9.6% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NFLX",
+      "yahoo_url": "https://finance.yahoo.com/quote/NFLX/"
+    },
+    {
+      "symbol": "ORCL",
+      "action": "BUY",
+      "current_position": 136.0,
+      "annual_volatility": "53%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "22.3% below entry",
+      "take_profit": "11.2% above entry",
+      "position_size": "5.3% of portfolio",
+      "trailing_stop": "15.6% trailing after 4.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ORCL",
+      "yahoo_url": "https://finance.yahoo.com/quote/ORCL/"
+    },
+    {
+      "symbol": "HPQ",
+      "action": "BUY",
+      "current_position": 1011.0,
+      "annual_volatility": "35%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "14.5% below entry",
+      "take_profit": "7.3% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "10.2% trailing after 2.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HPQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/HPQ/"
+    },
+    {
+      "symbol": "MU",
+      "action": "BUY",
+      "current_position": 67.0,
+      "annual_volatility": "63%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "26.3% below entry",
+      "take_profit": "13.2% above entry",
+      "position_size": "4.5% of portfolio",
+      "trailing_stop": "18.4% trailing after 5.3% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MU",
+      "yahoo_url": "https://finance.yahoo.com/quote/MU/"
+    },
+    {
+      "symbol": "HRB",
+      "action": "BUY",
+      "current_position": 394.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "12.8% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "9.2% of portfolio",
+      "trailing_stop": "9.0% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HRB",
+      "yahoo_url": "https://finance.yahoo.com/quote/HRB/"
+    },
+    {
+      "symbol": "ADP",
+      "action": "BUY",
+      "current_position": 77.0,
+      "annual_volatility": "20%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.5% below entry",
+      "take_profit": "4.3% above entry",
+      "position_size": "13.9% of portfolio",
+      "trailing_stop": "6.0% trailing after 1.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ADP",
+      "yahoo_url": "https://finance.yahoo.com/quote/ADP/"
+    },
+    {
+      "symbol": "PAYX",
+      "action": "BUY",
+      "current_position": 175.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.1% below entry",
+      "take_profit": "5.1% above entry",
+      "position_size": "11.7% of portfolio",
+      "trailing_stop": "7.1% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PAYX",
+      "yahoo_url": "https://finance.yahoo.com/quote/PAYX/"
+    },
+    {
+      "symbol": "FISV",
+      "action": "BUY",
+      "current_position": 294.0,
+      "annual_volatility": "47%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "19.8% below entry",
+      "take_profit": "9.9% above entry",
+      "position_size": "6.0% of portfolio",
+      "trailing_stop": "13.9% trailing after 4.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=FISV",
+      "yahoo_url": "https://finance.yahoo.com/quote/FISV/"
+    },
+    {
+      "symbol": "WBD",
+      "action": "BUY",
+      "current_position": 589.0,
+      "annual_volatility": "54%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "22.8% below entry",
+      "take_profit": "11.4% above entry",
+      "position_size": "5.2% of portfolio",
+      "trailing_stop": "16.0% trailing after 4.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WBD",
+      "yahoo_url": "https://finance.yahoo.com/quote/WBD/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "117.79%",
+    "sharpe_ratio": "1.20",
+    "max_drawdown": "-25.43%",
+    "win_rate": "54.19%",
+    "alpha": "6.61%"
+  }
+}

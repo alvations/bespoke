@@ -1,0 +1,93 @@
+{
+  "strategy_name": "nvidia_domino_hedge",
+  "is_winning": false,
+  "generated_at": "2026-04-12T19:02:29.152189",
+  "overall_assessment": "AVOID \u2014 Strategy is destroying capital. Do NOT deploy. Needs fundamental redesign.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "15.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "16.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Always hold some. Add more when SPY breaks below SMA200.",
+    "timing": "WAIT FOR SIGNAL: Hold AI stocks normally. Switch to defensive ONLY when supply chain companies start breaking down.",
+    "scaling": "Maintain 5-15% allocation. Add during fear, trim during euphoria."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "GLD",
+      "action": "BUY",
+      "current_position": 22.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "14.4% below entry",
+      "take_profit": "4.8% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "10.1% trailing after 1.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GLD",
+      "yahoo_url": "https://finance.yahoo.com/quote/GLD/"
+    },
+    {
+      "symbol": "SHY",
+      "action": "BUY",
+      "current_position": 53.0,
+      "annual_volatility": "2%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.5% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "5.2% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SHY",
+      "yahoo_url": "https://finance.yahoo.com/quote/SHY/"
+    },
+    {
+      "symbol": "SQQQ",
+      "action": "BUY",
+      "current_position": 102.0,
+      "annual_volatility": "65%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "13.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=SQQQ",
+      "yahoo_url": "https://finance.yahoo.com/quote/SQQQ/"
+    },
+    {
+      "symbol": "TLT",
+      "action": "BUY",
+      "current_position": 70.0,
+      "annual_volatility": "13%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.9% below entry",
+      "take_profit": "3.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "5.5% trailing after 1.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TLT",
+      "yahoo_url": "https://finance.yahoo.com/quote/TLT/"
+    },
+    {
+      "symbol": "UVXY",
+      "action": "BUY",
+      "current_position": 120.0,
+      "annual_volatility": "122%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UVXY",
+      "yahoo_url": "https://finance.yahoo.com/quote/UVXY/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "-13.67%",
+    "sharpe_ratio": "-0.83",
+    "max_drawdown": "-16.27%",
+    "win_rate": "47.94%",
+    "alpha": "-27.93%"
+  }
+}

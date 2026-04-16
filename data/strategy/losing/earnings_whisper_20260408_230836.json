@@ -1,0 +1,67 @@
+{
+  "strategy_name": "earnings_whisper",
+  "is_winning": false,
+  "generated_at": "2026-04-08T23:08:36.656730",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "23.6%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "META",
+      "action": "BUY",
+      "current_position": 16.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "37.8% below entry",
+      "take_profit": "7.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "26.4% trailing after 3.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=META",
+      "yahoo_url": "https://finance.yahoo.com/quote/META/"
+    },
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 32.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.7% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.7% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "CRM",
+      "action": "BUY",
+      "current_position": 39.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "34.9% below entry",
+      "take_profit": "7.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "24.4% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CRM",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRM/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "2.44%",
+    "sharpe_ratio": "-0.20",
+    "max_drawdown": "-23.60%",
+    "win_rate": "46.31%",
+    "alpha": "-10.26%"
+  }
+}

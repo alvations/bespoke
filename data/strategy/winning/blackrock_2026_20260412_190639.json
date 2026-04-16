@@ -1,0 +1,132 @@
+{
+  "strategy_name": "blackrock_2026",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:06:39.510031",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "14.7%",
+    "stop_loss": "11.9%",
+    "take_profit_target": "9.5%",
+    "max_drawdown_tolerance": "11.9%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "limit: Buy 0.5% below market in uptrend.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "TLT",
+      "action": "BUY",
+      "current_position": 214.0,
+      "annual_volatility": "13%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "6.3% below entry",
+      "take_profit": "5.0% above entry",
+      "position_size": "28.0% of portfolio",
+      "trailing_stop": "4.4% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TLT",
+      "yahoo_url": "https://finance.yahoo.com/quote/TLT/"
+    },
+    {
+      "symbol": "INDA",
+      "action": "BUY",
+      "current_position": 345.0,
+      "annual_volatility": "15%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "7.7% below entry",
+      "take_profit": "6.1% above entry",
+      "position_size": "22.8% of portfolio",
+      "trailing_stop": "5.4% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=INDA",
+      "yahoo_url": "https://finance.yahoo.com/quote/INDA/"
+    },
+    {
+      "symbol": "BRK-B",
+      "action": "BUY",
+      "current_position": 37.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "8.8% below entry",
+      "take_profit": "7.0% above entry",
+      "position_size": "19.9% of portfolio",
+      "trailing_stop": "6.2% trailing after 2.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BRK-B",
+      "yahoo_url": "https://finance.yahoo.com/quote/BRK-B/"
+    },
+    {
+      "symbol": "V",
+      "action": "BUY",
+      "current_position": 57.0,
+      "annual_volatility": "22%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "10.8% below entry",
+      "take_profit": "8.6% above entry",
+      "position_size": "16.2% of portfolio",
+      "trailing_stop": "7.6% trailing after 3.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=V",
+      "yahoo_url": "https://finance.yahoo.com/quote/V/"
+    },
+    {
+      "symbol": "META",
+      "action": "BUY",
+      "current_position": 29.0,
+      "annual_volatility": "36%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "18.1% below entry",
+      "take_profit": "14.4% above entry",
+      "position_size": "9.7% of portfolio",
+      "trailing_stop": "12.6% trailing after 5.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=META",
+      "yahoo_url": "https://finance.yahoo.com/quote/META/"
+    },
+    {
+      "symbol": "UNH",
+      "action": "BUY",
+      "current_position": 59.0,
+      "annual_volatility": "43%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "21.5% below entry",
+      "take_profit": "17.1% above entry",
+      "position_size": "8.1% of portfolio",
+      "trailing_stop": "15.0% trailing after 6.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=UNH",
+      "yahoo_url": "https://finance.yahoo.com/quote/UNH/"
+    },
+    {
+      "symbol": "MSFT",
+      "action": "BUY",
+      "current_position": 39.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "12.1% below entry",
+      "take_profit": "9.7% above entry",
+      "position_size": "14.4% of portfolio",
+      "trailing_stop": "8.5% trailing after 3.9% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MSFT",
+      "yahoo_url": "https://finance.yahoo.com/quote/MSFT/"
+    },
+    {
+      "symbol": "AMZN",
+      "action": "BUY",
+      "current_position": 80.0,
+      "annual_volatility": "33%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "16.4% below entry",
+      "take_profit": "13.1% above entry",
+      "position_size": "10.7% of portfolio",
+      "trailing_stop": "11.5% trailing after 5.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=AMZN",
+      "yahoo_url": "https://finance.yahoo.com/quote/AMZN/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "67.93%",
+    "sharpe_ratio": "1.22",
+    "max_drawdown": "-11.88%",
+    "win_rate": "57.66%",
+    "alpha": "-4.20%"
+  }
+}

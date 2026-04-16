@@ -1,0 +1,171 @@
+{
+  "strategy_name": "genomics_revolution",
+  "is_winning": true,
+  "generated_at": "2026-04-15T22:06:14.872190",
+  "overall_assessment": "HOLD \u2014 Positive but underwhelming returns. Use as diversifier, not primary strategy.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "2.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "44.4%",
+    "rebalance_frequency": "monthly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "ARKG",
+      "action": "BUY",
+      "current_position": 345.0,
+      "annual_volatility": "44%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.3% above entry",
+      "position_size": "1.1% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ARKG",
+      "yahoo_url": "https://finance.yahoo.com/quote/ARKG/"
+    },
+    {
+      "symbol": "A",
+      "action": "BUY",
+      "current_position": 69.0,
+      "annual_volatility": "29%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "30.1% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "1.7% of portfolio",
+      "trailing_stop": "21.1% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=A",
+      "yahoo_url": "https://finance.yahoo.com/quote/A/"
+    },
+    {
+      "symbol": "TMO",
+      "action": "BUY",
+      "current_position": 18.0,
+      "annual_volatility": "28%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "29.8% below entry",
+      "take_profit": "6.0% above entry",
+      "position_size": "1.7% of portfolio",
+      "trailing_stop": "20.9% trailing after 2.4% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TMO",
+      "yahoo_url": "https://finance.yahoo.com/quote/TMO/"
+    },
+    {
+      "symbol": "TEM",
+      "action": "BUY",
+      "current_position": 69.0,
+      "annual_volatility": "100%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TEM",
+      "yahoo_url": "https://finance.yahoo.com/quote/TEM/"
+    },
+    {
+      "symbol": "CRSP",
+      "action": "BUY",
+      "current_position": 148.0,
+      "annual_volatility": "59%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "12.4% above entry",
+      "position_size": "0.8% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CRSP",
+      "yahoo_url": "https://finance.yahoo.com/quote/CRSP/"
+    },
+    {
+      "symbol": "EDIT",
+      "action": "BUY",
+      "current_position": 2348.0,
+      "annual_volatility": "115%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EDIT",
+      "yahoo_url": "https://finance.yahoo.com/quote/EDIT/"
+    },
+    {
+      "symbol": "TXG",
+      "action": "BUY",
+      "current_position": 569.0,
+      "annual_volatility": "73%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TXG",
+      "yahoo_url": "https://finance.yahoo.com/quote/TXG/"
+    },
+    {
+      "symbol": "BEAM",
+      "action": "BUY",
+      "current_position": 321.0,
+      "annual_volatility": "74%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BEAM",
+      "yahoo_url": "https://finance.yahoo.com/quote/BEAM/"
+    },
+    {
+      "symbol": "ILMN",
+      "action": "BUY",
+      "current_position": 120.0,
+      "annual_volatility": "46%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.6% above entry",
+      "position_size": "1.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ILMN",
+      "yahoo_url": "https://finance.yahoo.com/quote/ILMN/"
+    },
+    {
+      "symbol": "TWST",
+      "action": "BUY",
+      "current_position": 172.0,
+      "annual_volatility": "67%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "14.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 5.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=TWST",
+      "yahoo_url": "https://finance.yahoo.com/quote/TWST/"
+    },
+    {
+      "symbol": "NTLA",
+      "action": "BUY",
+      "current_position": 611.0,
+      "annual_volatility": "88%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "15.0% above entry",
+      "position_size": "0.7% of portfolio",
+      "trailing_stop": "28.0% trailing after 6.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NTLA",
+      "yahoo_url": "https://finance.yahoo.com/quote/NTLA/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "1.32%",
+    "sharpe_ratio": "0.08",
+    "max_drawdown": "-44.35%",
+    "win_rate": "46.34%",
+    "alpha": "-65.93%"
+  }
+}

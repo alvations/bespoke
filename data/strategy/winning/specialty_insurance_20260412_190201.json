@@ -1,0 +1,67 @@
+{
+  "strategy_name": "specialty_insurance",
+  "is_winning": true,
+  "generated_at": "2026-04-12T19:02:00.744287",
+  "overall_assessment": "BUY \u2014 Good returns with acceptable risk. Consider deploying with moderate position sizes.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "7.0%",
+    "stop_loss": "18.3%",
+    "take_profit_target": "8.1%",
+    "max_drawdown_tolerance": "18.3%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "market",
+    "limit_offset": "market: Use market orders for volatile names.",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks."
+  },
+  "position_recommendations": [
+    {
+      "symbol": "HCI",
+      "action": "BUY",
+      "current_position": 136.0,
+      "annual_volatility": "37%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "28.1% below entry",
+      "take_profit": "12.5% above entry",
+      "position_size": "4.5% of portfolio",
+      "trailing_stop": "19.7% trailing after 5.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=HCI",
+      "yahoo_url": "https://finance.yahoo.com/quote/HCI/"
+    },
+    {
+      "symbol": "OSCR",
+      "action": "BUY",
+      "current_position": 1428.0,
+      "annual_volatility": "77%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "24.4% above entry",
+      "position_size": "2.3% of portfolio",
+      "trailing_stop": "28.0% trailing after 9.8% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=OSCR",
+      "yahoo_url": "https://finance.yahoo.com/quote/OSCR/"
+    },
+    {
+      "symbol": "WRB",
+      "action": "BUY",
+      "current_position": 331.0,
+      "annual_volatility": "23%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "17.4% below entry",
+      "take_profit": "7.7% above entry",
+      "position_size": "7.3% of portfolio",
+      "trailing_stop": "12.2% trailing after 3.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WRB",
+      "yahoo_url": "https://finance.yahoo.com/quote/WRB/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "56.91%",
+    "sharpe_ratio": "0.64",
+    "max_drawdown": "-18.32%",
+    "win_rate": "52.20%",
+    "alpha": "-6.87%"
+  }
+}

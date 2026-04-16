@@ -1,0 +1,106 @@
+{
+  "strategy_name": "emerging_market_etf_value",
+  "is_winning": false,
+  "generated_at": "2026-04-08T22:58:58.135186",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "22.4%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Position sizes are already risk-adjusted by volatility \u2014 higher vol stocks get smaller positions automatically.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "VNM",
+      "action": "BUY",
+      "current_position": 868.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "28.0% below entry",
+      "take_profit": "5.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "19.6% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=VNM",
+      "yahoo_url": "https://finance.yahoo.com/quote/VNM/"
+    },
+    {
+      "symbol": "EWT",
+      "action": "BUY",
+      "current_position": 259.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.6% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.6% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWT",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWT/"
+    },
+    {
+      "symbol": "EWY",
+      "action": "BUY",
+      "current_position": 166.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.2% below entry",
+      "take_profit": "6.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.3% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWY",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWY/"
+    },
+    {
+      "symbol": "EWS",
+      "action": "BUY",
+      "current_position": 593.0,
+      "annual_volatility": "18%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "18.6% below entry",
+      "take_profit": "3.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "13.0% trailing after 1.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EWS",
+      "yahoo_url": "https://finance.yahoo.com/quote/EWS/"
+    },
+    {
+      "symbol": "EEM",
+      "action": "BUY",
+      "current_position": 300.0,
+      "annual_volatility": "19%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "19.6% below entry",
+      "take_profit": "3.9% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "13.8% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=EEM",
+      "yahoo_url": "https://finance.yahoo.com/quote/EEM/"
+    },
+    {
+      "symbol": "NU",
+      "action": "BUY",
+      "current_position": 985.0,
+      "annual_volatility": "44%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "40.0% below entry",
+      "take_profit": "9.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "28.0% trailing after 3.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=NU",
+      "yahoo_url": "https://finance.yahoo.com/quote/NU/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "9.42%",
+    "sharpe_ratio": "-0.06",
+    "max_drawdown": "-22.39%",
+    "win_rate": "50.60%",
+    "alpha": "-8.58%"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "strategy_name": "bonds_down_banks_up",
+  "is_winning": false,
+  "generated_at": "2026-04-08T22:39:52.389940",
+  "overall_assessment": "NEUTRAL \u2014 Mixed signals. Paper trade before committing capital.",
+  "risk_parameters": {
+    "max_portfolio_allocation": "0.0%",
+    "stop_loss": "25.0%",
+    "take_profit_target": "5.0%",
+    "max_drawdown_tolerance": "29.0%",
+    "rebalance_frequency": "weekly"
+  },
+  "execution_guidance": {
+    "order_type": "limit",
+    "limit_offset": "0.5% below current price for buys",
+    "timing": "SAFE TO BUY. Even better: add more when interest rates are rising \u2014 banks earn wider margins on loans.",
+    "scaling": "Enter in 3 tranches over 1-2 weeks to average in"
+  },
+  "position_recommendations": [
+    {
+      "symbol": "JPM",
+      "action": "BUY",
+      "current_position": 44.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.7% below entry",
+      "take_profit": "5.3% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.7% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=JPM",
+      "yahoo_url": "https://finance.yahoo.com/quote/JPM/"
+    },
+    {
+      "symbol": "WFC",
+      "action": "BUY",
+      "current_position": 148.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "32.1% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "22.5% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=WFC",
+      "yahoo_url": "https://finance.yahoo.com/quote/WFC/"
+    },
+    {
+      "symbol": "GS",
+      "action": "BUY",
+      "current_position": 18.0,
+      "annual_volatility": "31%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "32.7% below entry",
+      "take_profit": "6.5% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "22.9% trailing after 2.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=GS",
+      "yahoo_url": "https://finance.yahoo.com/quote/GS/"
+    },
+    {
+      "symbol": "CB",
+      "action": "BUY",
+      "current_position": 37.0,
+      "annual_volatility": "19%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "20.0% below entry",
+      "take_profit": "4.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "14.0% trailing after 1.6% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=CB",
+      "yahoo_url": "https://finance.yahoo.com/quote/CB/"
+    },
+    {
+      "symbol": "MS",
+      "action": "BUY",
+      "current_position": 83.0,
+      "annual_volatility": "30%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "31.9% below entry",
+      "take_profit": "6.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "22.3% trailing after 2.5% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MS",
+      "yahoo_url": "https://finance.yahoo.com/quote/MS/"
+    },
+    {
+      "symbol": "BAC",
+      "action": "BUY",
+      "current_position": 178.0,
+      "annual_volatility": "26%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "27.0% below entry",
+      "take_profit": "5.4% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.9% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=BAC",
+      "yahoo_url": "https://finance.yahoo.com/quote/BAC/"
+    },
+    {
+      "symbol": "PGR",
+      "action": "BUY",
+      "current_position": 46.0,
+      "annual_volatility": "24%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "24.9% below entry",
+      "take_profit": "5.0% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "17.4% trailing after 2.0% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=PGR",
+      "yahoo_url": "https://finance.yahoo.com/quote/PGR/"
+    },
+    {
+      "symbol": "MET",
+      "action": "BUY",
+      "current_position": 129.0,
+      "annual_volatility": "27%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "28.0% below entry",
+      "take_profit": "5.6% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "19.6% trailing after 2.2% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=MET",
+      "yahoo_url": "https://finance.yahoo.com/quote/MET/"
+    },
+    {
+      "symbol": "ALL",
+      "action": "BUY",
+      "current_position": 54.0,
+      "annual_volatility": "25%",
+      "entry_rule": "Limit 0.5% below market",
+      "stop_loss": "26.1% below entry",
+      "take_profit": "5.2% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "18.3% trailing after 2.1% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=ALL",
+      "yahoo_url": "https://finance.yahoo.com/quote/ALL/"
+    },
+    {
+      "symbol": "C",
+      "action": "BUY",
+      "current_position": 149.0,
+      "annual_volatility": "32%",
+      "entry_rule": "Market order (volatile)",
+      "stop_loss": "33.3% below entry",
+      "take_profit": "6.7% above entry",
+      "position_size": "0.0% of portfolio",
+      "trailing_stop": "23.3% trailing after 2.7% gain",
+      "tradingview_url": "https://www.tradingview.com/chart/?symbol=C",
+      "yahoo_url": "https://finance.yahoo.com/quote/C/"
+    }
+  ],
+  "metrics_summary": {
+    "total_return": "3.96%",
+    "sharpe_ratio": "-0.14",
+    "max_drawdown": "-29.00%",
+    "win_rate": "52.39%",
+    "alpha": "-7.35%"
+  }
+}
