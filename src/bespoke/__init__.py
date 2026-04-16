@@ -1,6 +1,6 @@
 """Bespoke — trading strategy library."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from bespoke.core.backtester import Backtester
 from bespoke.strategies.base import BaseStrategy, StrategyConfig
