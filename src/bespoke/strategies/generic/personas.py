@@ -1,4 +1,4 @@
-"""Trading persona agents for agents-assemble.
+"""Trading persona agents for bespoke.
 
 Each persona implements a trading strategy inspired by a famous trader archetype.
 All personas return target portfolio weights via a common interface compatible

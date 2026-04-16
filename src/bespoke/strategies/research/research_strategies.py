@@ -1,4 +1,4 @@
-"""Research-backed quantitative strategies for agents-assemble.
+"""Research-backed quantitative strategies for bespoke.
 
 These are strategies derived from academic finance research and
 quantitative analysis — not from any persona or interview.

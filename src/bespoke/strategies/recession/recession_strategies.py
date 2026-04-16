@@ -1,4 +1,4 @@
-"""Recession indicators and recession-proof strategies for agents-assemble.
+"""Recession indicators and recession-proof strategies for bespoke.
 
 Recession Detection:
 - Yield curve inversion (10Y-2Y spread, 10Y-3M spread)

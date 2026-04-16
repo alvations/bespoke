@@ -1,4 +1,4 @@
-"""Unconventional and less obvious trading strategies for agents-assemble.
+"""Unconventional and less obvious trading strategies for bespoke.
 
 These go beyond the standard momentum/value playbook into more
 creative and contrarian approaches.

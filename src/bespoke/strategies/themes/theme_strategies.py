@@ -1,4 +1,4 @@
-"""Theme-based trading strategies for agents-assemble.
+"""Theme-based trading strategies for bespoke.
 
 These personas trade based on macro themes and megatrends rather than
 individual investor philosophies. Each theme targets a specific sector

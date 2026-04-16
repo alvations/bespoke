@@ -1,9 +1,9 @@
 """Portfolio and position tracking.
 
-Compatible with both bespoke and agents-assemble APIs:
-- buy() / sell() — bespoke style
-- execute_trade(date, symbol, side, quantity, price) — agents-assemble style
-- Portfolio(initial_cash=X) or Portfolio(initial_cash=X, cash=X) — both work
+Flexible API:
+- buy() / sell() for simple usage
+- execute_trade(date, symbol, side, quantity, price) for full control
+- Configurable slippage, commissions, and spread models
 """
 
 from __future__ import annotations
@@ -79,7 +79,7 @@ class Portfolio:
         p.buy("AAPL", 10, 150.0)
         p.sell("AAPL", 5, 160.0)
 
-        # agents-assemble style
+        # full control style
         p = Portfolio(initial_cash=100_000, cash=100_000)
         p.execute_trade(date, "AAPL", Side.BUY, 10, 150.0)
     """
@@ -162,7 +162,7 @@ class Portfolio:
         return trade
 
     def execute_trade(self, date, symbol: str, side, quantity: float, price: float) -> Trade:
-        """Execute a trade — agents-assemble compatible API.
+        """Execute a trade — full-control API.
 
         Args:
             date: Trade date (pd.Timestamp or similar)

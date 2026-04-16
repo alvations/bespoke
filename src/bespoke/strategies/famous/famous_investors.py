@@ -1,4 +1,4 @@
-"""Famous investor personas for agents-assemble.
+"""Famous investor personas for bespoke.
 
 Real investor strategies based on documented approaches. Each persona
 implements the actual strategy the investor is known for, with citations

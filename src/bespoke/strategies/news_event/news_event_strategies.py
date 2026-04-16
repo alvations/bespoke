@@ -1,4 +1,4 @@
-"""News and event-driven trading strategies for agents-assemble.
+"""News and event-driven trading strategies for bespoke.
 
 These strategies proxy news/event impact through price and volume
 signals, since we don't have real-time news APIs by default.

@@ -1,4 +1,4 @@
-"""Combined portfolio strategies with hedging for agents-assemble.
+"""Combined portfolio strategies with hedging for bespoke.
 
 These are PORTFOLIO-LEVEL strategies that combine multiple asset classes
 (equities, bonds, commodities, defensive sectors) with explicit hedging.

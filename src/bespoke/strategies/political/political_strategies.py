@@ -1,4 +1,4 @@
-"""Political and prediction-market trading strategies for agents-assemble.
+"""Political and prediction-market trading strategies for bespoke.
 
 Strategies based on congressional trading patterns, political ETFs,
 and prediction market signals.

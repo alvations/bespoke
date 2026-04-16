@@ -1,4 +1,4 @@
-"""Mathematically-driven trading strategies for agents-assemble.
+"""Mathematically-driven trading strategies for bespoke.
 
 These strategies use specific mathematical techniques beyond simple
 moving averages. Each is grounded in a specific mathematical concept.
