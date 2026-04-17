@@ -11,7 +11,11 @@ import pandas as pd
 import pytest
 
 from bespoke.core.portfolio import Portfolio, Position
-from bespoke.core.metrics import compute_metrics, compute_composite
+from bespoke.core.metrics import compute_metrics, compute_composite, compute_fitness
+from bespoke.core.splits import (
+    SPLITS, TRAIN_WINDOWS, VAL_WINDOWS, TEST_WINDOWS, ALL_WINDOWS,
+    filter_windows, horizon_of, group_by_horizon,
+)
 from bespoke.core.backtester import Backtester
 from bespoke.strategies.base import BaseStrategy, StrategyConfig
 
@@ -160,6 +164,117 @@ class TestMetrics:
         m = compute_metrics(eq)
         # Max drawdown from 120 to 90 = -25%
         assert m["max_drawdown"] == pytest.approx(-0.25, rel=1e-2)
+
+
+# ---------------------------------------------------------------------------
+# Splits tests
+# ---------------------------------------------------------------------------
+
+class TestSplits:
+    def test_splits_cover_28_windows_no_overlap(self):
+        assert len(TRAIN_WINDOWS) == 18
+        assert len(VAL_WINDOWS) == 6
+        assert len(TEST_WINDOWS) == 4
+        assert len(ALL_WINDOWS) == 28
+        assert len(set(ALL_WINDOWS)) == 28  # no duplicates
+        assert set(TRAIN_WINDOWS).isdisjoint(VAL_WINDOWS)
+        assert set(TRAIN_WINDOWS).isdisjoint(TEST_WINDOWS)
+        assert set(VAL_WINDOWS).isdisjoint(TEST_WINDOWS)
+
+    def test_test_split_includes_distinct_regimes(self):
+        # 2020 COVID, 2022 bear, 2025 most-recent must be held out
+        assert "1Y_2020" in TEST_WINDOWS
+        assert "1Y_2022" in TEST_WINDOWS
+        assert "1Y_2025" in TEST_WINDOWS
+
+    def test_filter_windows(self):
+        ws = {k: {"ret": 0.1, "sh": 1.0, "dd": -0.05} for k in ALL_WINDOWS}
+        train = filter_windows(ws, "train")
+        assert set(train) == set(TRAIN_WINDOWS)
+        test = filter_windows(ws, "test")
+        assert set(test) == set(TEST_WINDOWS)
+
+    def test_filter_windows_unknown_split(self):
+        with pytest.raises(ValueError):
+            filter_windows({}, "nope")
+
+    def test_horizon_of(self):
+        assert horizon_of("1Y_2020") == "1Y"
+        assert horizon_of("3Y_2022_2024") == "3Y"
+        assert horizon_of("10Y_2015_2024") == "10Y"
+
+    def test_group_by_horizon(self):
+        ws = {k: {"ret": 0.1} for k in TRAIN_WINDOWS}
+        g = group_by_horizon(ws)
+        assert set(g) == {"1Y", "3Y", "5Y", "10Y"}
+        assert len(g["1Y"]) == 6
+        assert len(g["10Y"]) == 1
+
+
+# ---------------------------------------------------------------------------
+# Fitness tests
+# ---------------------------------------------------------------------------
+
+class TestFitness:
+    def test_fitness_rewards_horizon_consistency(self):
+        # Both A and B average the same return, but A is uniform across
+        # horizons while B is only strong on 1Y. A should score higher.
+        uniform = {
+            "1Y_2015": {"ret": 0.10, "sh": 1.0, "dd": -0.05},
+            "3Y_2015_2017": {"ret": 0.10, "sh": 1.0, "dd": -0.05},
+            "5Y_2015_2019": {"ret": 0.10, "sh": 1.0, "dd": -0.05},
+            "10Y_2015_2024": {"ret": 0.10, "sh": 1.0, "dd": -0.05},
+        }
+        short_heavy = {
+            "1Y_2015": {"ret": 0.40, "sh": 2.0, "dd": -0.05},
+            "3Y_2015_2017": {"ret": 0.00, "sh": 0.0, "dd": -0.05},
+            "5Y_2015_2019": {"ret": 0.00, "sh": 0.0, "dd": -0.05},
+            "10Y_2015_2024": {"ret": 0.00, "sh": 0.0, "dd": -0.05},
+        }
+        f_u = compute_fitness(uniform)
+        f_s = compute_fitness(short_heavy)
+        assert f_u["fitness"] > f_s["fitness"]
+
+    def test_fitness_horizon_weighting_not_window_count(self):
+        # 11 good 1Y windows should NOT dominate one bad 10Y window.
+        # Flat-average would give +0.10; horizon-weighted gives -0.40 mean.
+        ws = {f"1Y_{y}": {"ret": 0.10, "sh": 1.0, "dd": -0.05}
+              for y in range(2015, 2026)}  # 11 windows
+        ws["10Y_2015_2024"] = {"ret": -0.50, "sh": -1.0, "dd": -0.30}
+        f = compute_fitness(ws)
+        # Horizon mean = (0.10 + (-0.50)) / 2 = -0.20
+        assert f["horizon_mean"] == pytest.approx(-0.20, abs=1e-6)
+
+    def test_fitness_penalizes_drawdown(self):
+        low_dd = {"1Y_2015": {"ret": 0.10, "sh": 1.0, "dd": -0.05}}
+        high_dd = {"1Y_2015": {"ret": 0.10, "sh": 1.0, "dd": -0.50}}
+        assert compute_fitness(low_dd)["fitness"] > compute_fitness(high_dd)["fitness"]
+        assert compute_fitness(high_dd)["worst_dd"] == pytest.approx(0.50)
+
+    def test_fitness_regime_failure_penalty(self):
+        clean = {
+            "1Y_2015": {"ret": 0.10, "sh": 0.5, "dd": -0.05},
+            "3Y_2015_2017": {"ret": 0.10, "sh": 0.5, "dd": -0.05},
+        }
+        regime_fail = {
+            "1Y_2015": {"ret": 0.10, "sh": 0.5, "dd": -0.05},
+            "3Y_2015_2017": {"ret": 0.10, "sh": -1.0, "dd": -0.05},  # blows up
+        }
+        assert compute_fitness(clean)["regime_fail_rate"] == 0
+        assert compute_fitness(regime_fail)["regime_fail_rate"] == 0.5
+        assert compute_fitness(clean)["fitness"] > compute_fitness(regime_fail)["fitness"]
+
+    def test_fitness_split_filter(self):
+        ws = {k: {"ret": 0.10, "sh": 1.0, "dd": -0.05} for k in ALL_WINDOWS}
+        f_train = compute_fitness(ws, split="train")
+        f_test = compute_fitness(ws, split="test")
+        assert f_train["n_windows"] == 18
+        assert f_test["n_windows"] == 4
+
+    def test_fitness_empty(self):
+        f = compute_fitness({})
+        assert f["fitness"] == 0
+        assert f["n_windows"] == 0
 
 
 # ---------------------------------------------------------------------------

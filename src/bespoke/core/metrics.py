@@ -107,6 +107,8 @@ def compute_composite(
     Returns:
         {composite, consistency, avg_ret, avg_dd}
     """
+    from bespoke.core.splits import group_by_horizon
+
     if window_keys:
         w = {k: v for k, v in windows.items() if k in window_keys}
     else:
@@ -116,12 +118,21 @@ def compute_composite(
         return {"composite": 0, "consistency": 0, "avg_ret": 0, "avg_dd": 0}
 
     sharpes = [v.get("sh", 0) for v in w.values()]
-    rets = [v.get("ret", 0) for v in w.values()]
-    dds = [abs(v.get("dd", 0)) for v in w.values()]
-
     consistency = sum(1 for s in sharpes if s > 0) / len(sharpes)
-    avg_ret = sum(rets) / len(rets)
-    avg_dd = sum(dds) / len(dds)
+
+    groups = group_by_horizon(w)
+    horizon_rets: List[float] = []
+    horizon_dds: List[float] = []
+    for winmap in groups.values():
+        rets = [v.get("ret", 0) for v in winmap.values()]
+        dds = [abs(v.get("dd", 0)) for v in winmap.values()]
+        if rets:
+            horizon_rets.append(sum(rets) / len(rets))
+        if dds:
+            horizon_dds.append(sum(dds) / len(dds))
+
+    avg_ret = sum(horizon_rets) / len(horizon_rets) if horizon_rets else 0
+    avg_dd = sum(horizon_dds) / len(horizon_dds) if horizon_dds else 0
     composite = avg_ret * consistency * (1 - avg_dd)
 
     return {
@@ -129,6 +140,76 @@ def compute_composite(
         "consistency": round(consistency, 2),
         "avg_ret": round(avg_ret, 4),
         "avg_dd": round(avg_dd, 4),
+    }
+
+
+def compute_fitness(
+    windows: Dict[str, Dict[str, float]],
+    split: Optional[str] = None,
+    std_penalty: float = 0.5,
+    dd_penalty: float = 0.3,
+    regime_fail_sharpe: float = -0.3,
+    regime_fail_penalty: float = 0.5,
+) -> Dict[str, float]:
+    """Robustness-weighted fitness for strategy evolution.
+
+        fitness = horizon_mean_return
+                - std_penalty * horizon_std
+                - dd_penalty  * worst_window_dd
+                - regime_fail_penalty * fraction_of_windows_with_sharpe<threshold
+
+    Horizon-weighted: each of 1Y / 3Y / 5Y / 10Y contributes one sample to
+    mean and std regardless of how many windows fall under it. A strategy
+    that only wins 1Y cannot dominate by sheer window count.
+    """
+    from bespoke.core.splits import filter_windows, group_by_horizon
+
+    if split:
+        windows = filter_windows(windows, split)
+
+    empty = {
+        "fitness": 0, "horizon_mean": 0, "horizon_std": 0,
+        "worst_dd": 0, "regime_fail_rate": 0, "n_windows": 0,
+    }
+    if not windows:
+        return empty
+
+    groups = group_by_horizon(windows)
+    horizon_returns: List[float] = []
+    for winmap in groups.values():
+        rets = [v.get("ret", 0) for v in winmap.values()]
+        if rets:
+            horizon_returns.append(sum(rets) / len(rets))
+
+    if not horizon_returns:
+        return empty
+
+    horizon_mean = sum(horizon_returns) / len(horizon_returns)
+    if len(horizon_returns) > 1:
+        var = sum((r - horizon_mean) ** 2 for r in horizon_returns) / len(horizon_returns)
+        horizon_std = var ** 0.5
+    else:
+        horizon_std = 0.0
+
+    worst_dd = max((abs(v.get("dd", 0)) for v in windows.values()), default=0.0)
+
+    sharpes = [v.get("sh", 0) for v in windows.values()]
+    regime_fail_rate = sum(1 for s in sharpes if s < regime_fail_sharpe) / len(sharpes)
+
+    fitness = (
+        horizon_mean
+        - std_penalty * horizon_std
+        - dd_penalty * worst_dd
+        - regime_fail_penalty * regime_fail_rate
+    )
+
+    return {
+        "fitness": _safe(fitness),
+        "horizon_mean": _safe(horizon_mean),
+        "horizon_std": _safe(horizon_std),
+        "worst_dd": _safe(worst_dd),
+        "regime_fail_rate": _safe(regime_fail_rate),
+        "n_windows": len(windows),
     }
 
 

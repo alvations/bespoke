@@ -14,9 +14,9 @@ from typing import Any, Dict, List, Optional
 
 
 class Side(str, Enum):
-    """Trade side."""
-    BUY = "buy"
-    SELL = "sell"
+    """Trade side. Accepts both 'BUY'/'SELL' and 'buy'/'sell'."""
+    BUY = "BUY"
+    SELL = "SELL"
 
 
 @dataclass
@@ -109,6 +109,10 @@ class Portfolio:
 
     def buy(self, symbol: str, quantity: float, price: float) -> Trade:
         """Buy shares of a symbol."""
+        if quantity <= 0:
+            raise ValueError(f"quantity must be positive, got {quantity}")
+        if price <= 0:
+            raise ValueError(f"price must be positive, got {price}")
         slippage = price * self._get_slippage_pct(symbol)
         fill_price = price + slippage
         cost = quantity * fill_price
@@ -171,8 +175,8 @@ class Portfolio:
             quantity: Number of shares
             price: Execution price
         """
-        side_str = side.value if isinstance(side, Side) else str(side).lower()
-        if side_str == "buy":
+        side_str = str(side.value if hasattr(side, 'value') else side).upper()
+        if side_str == "BUY":
             trade = self.buy(symbol, quantity, price)
         else:
             trade = self.sell(symbol, quantity, price)

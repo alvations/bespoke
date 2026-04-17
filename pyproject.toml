@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bespoke"
-version = "0.1.1"
+version = "0.1.3"
 description = "Bespoke trading strategy library — backtest, compare, and build custom strategies"
 readme = "README.md"
 license = {text = "Apache-2.0"}
