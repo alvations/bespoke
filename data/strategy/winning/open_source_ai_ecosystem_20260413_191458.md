@@ -92,3 +92,26 @@ These 6 names span GPU monopoly, Mistral proxy, Llama ecosystem, HuggingFace inv
 | 10Y_2015_2024 | 929.6% | 0.93 | -48.8% |
 
 *26 of 28 windows had positive Sharpe ratio. Only 2018 and 2022 (broad tech selloffs) were negative.*
+
+<details>
+<summary>For passive investors (buy and hold)</summary>
+
+### Long-Horizon Performance
+
+| Metric | Value |
+|--------|-------|
+| **Avg 5Y Return** | 227.2% |
+| **Avg 5Y Sharpe** | 0.91 |
+| **Avg 5Y Max DD** | -39.8% |
+| **10Y Return (2015-2024)** | 929.6% |
+| **10Y Sharpe** | 0.93 |
+| **10Y Max DD** | -48.8% |
+| **HODL Composite** | 1.95 |
+| **Windows Tested** | 28 |
+| **Consistency** | 93% |
+
+### How to Use This Strategy Passively
+
+**Strong long-horizon compounder.** Suitable as a core or satellite holding (5-15% of portfolio). Rebalance quarterly or annually.
+
+</details>

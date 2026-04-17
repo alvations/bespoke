@@ -1,5 +1,7 @@
 # WINNING Strategy: tax_harvest_rotation
 
+> ⚠ **Stale data:** This strategy is no longer in the active backtest universe. Numbers below reflect an earlier run under the prior flat-averaged composite formula. Re-run `scripts/update_strategy_composites.py` after adding the strategy back to the registry.
+
 > **What it does:** Tax-loss harvesting via correlated ETF swaps on drawdowns
 
 **Generated:** 2026-04-14T07:24:41.204799
