@@ -3,8 +3,9 @@
 Evolution loops see only TRAIN. Champion selection uses VAL. TEST is opened
 once at end-of-run; if the champion disagrees there, discard it.
 
-Window keys match scripts/rerun_all_228.py so existing multi-window JSON
-files can be filtered without re-running backtests.
+Window key convention: ``<horizon>_<year>`` for 1Y (e.g. ``1Y_2020``) and
+``<horizon>_<start>_<end>`` for multi-year (e.g. ``3Y_2022_2024``). Horizon
+prefix is parsed by splitting on the first underscore.
 """
 from __future__ import annotations
 
