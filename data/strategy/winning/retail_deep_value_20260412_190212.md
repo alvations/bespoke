@@ -52,7 +52,7 @@
 | **Avg 5Y Sharpe** | 0.09 |
 | **10Y Return** | 36.5% |
 | **10Y Sharpe** | 0.07 |
-| **HODL Composite** | 0.05 |
+| **HODL Composite** | 0.11 |
 | **Consistency** | 60% |
 | **Suitable for passive** | No |
 

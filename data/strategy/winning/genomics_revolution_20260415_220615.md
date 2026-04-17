@@ -67,7 +67,7 @@ Based on ARK Invest ARKG thesis from [CICC/KraneShares/ARK Research](../../knowl
 | **10Y Return (2015-2024)** | 112.1% |
 | **10Y Sharpe** | 0.27 |
 | **10Y Max DD** | -70.6% |
-| **HODL Composite** | 0.31 |
+| **HODL Composite** | 0.34 |
 | **Windows Tested** | 28 |
 | **Consistency** | 79% |
 

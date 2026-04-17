@@ -61,7 +61,7 @@ Based on CICC/KraneShares AGIX + Destiny Tech100 + BlackRock research from [CICC
 | **10Y Return (2015-2024)** | 278.8% |
 | **10Y Sharpe** | 0.46 |
 | **10Y Max DD** | -66.9% |
-| **HODL Composite** | 0.34 |
+| **HODL Composite** | 0.53 |
 | **Windows Tested** | 28 |
 | **Consistency** | 82% |
 

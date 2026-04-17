@@ -67,7 +67,7 @@ Based on KraneShares KOID ETF thesis from [CICC/KraneShares/ARK Research](../../
 | **10Y Return (2015-2024)** | 476.4% |
 | **10Y Sharpe** | 0.74 |
 | **10Y Max DD** | -36.4% |
-| **HODL Composite** | 0.62 |
+| **HODL Composite** | 1.21 |
 | **Windows Tested** | 28 |
 | **Consistency** | 93% |
 

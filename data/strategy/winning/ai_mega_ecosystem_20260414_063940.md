@@ -105,7 +105,7 @@ This mega-strategy combines tickers from 6 individual AI ecosystem strategies. F
 | **10Y Return (2015-2024)** | 1004.8% |
 | **10Y Sharpe** | 1.00 |
 | **10Y Max DD** | -39.5% |
-| **HODL Composite** | 0.97 |
+| **HODL Composite** | 2.23 |
 | **Windows Tested** | 28 |
 | **Consistency** | 93% |
 

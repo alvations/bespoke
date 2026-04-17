@@ -53,7 +53,7 @@
 | **10Y Return (2015-2024)** | 285.7% |
 | **10Y Sharpe** | 0.66 |
 | **10Y Max DD** | -27.5% |
-| **HODL Composite** | 0.49 |
+| **HODL Composite** | 0.86 |
 | **Windows Tested** | 28 |
 | **Consistency** | 89% |
 
